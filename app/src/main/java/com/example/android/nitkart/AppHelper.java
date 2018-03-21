@@ -10,10 +10,6 @@ import android.graphics.Bitmap.Config;
 
 import java.io.ByteArrayOutputStream;
 
-/**
- * Sketch Project Studio
- * Created by Angga on 12/04/2016 14.27.
- */
 public class AppHelper {
 
     /**
