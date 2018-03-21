@@ -2,9 +2,6 @@ package com.example.android.nitkart;
 
 import com.google.gson.annotations.SerializedName;
 
-/**
- * Created by Suyash on 10-03-2018.
- */
 
 public class Product {
     @SerializedName("image")
