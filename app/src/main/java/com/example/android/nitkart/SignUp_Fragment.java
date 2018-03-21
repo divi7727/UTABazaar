@@ -1,8 +1,5 @@
 package com.example.android.nitkart;
 
-/**
- * Created by dhp on 26/2/18.
- */
 
 import android.annotation.SuppressLint;
 import android.content.Context;
