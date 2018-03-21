@@ -10,7 +10,7 @@ To start server: `python manage.py runserver [hostname:portNo]`
 
 
 ## Team Members
-* [Devi Prasad Tripathy](https://github.com/deviprasad97),16IT123
-* [Siddharth Vadgama](https://github.com/Siddharth1410), 16IT217
-* [Zachery Gentry](https://github.com/), 16IT114
-* [Divy Achary](https://github.com/), 16IT114
+* [Devi Prasad Tripathy](https://github.com/deviprasad97)
+* [Siddharth Vadgama](https://github.com/Siddharth1410)
+* [Zachery Gentry](https://github.com/)
+* [Divy Achary](https://github.com/)
