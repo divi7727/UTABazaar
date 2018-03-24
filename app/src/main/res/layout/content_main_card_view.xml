@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#00f0f0f0"
-    tools:context="com.example.android.nitkart.StoreFragment"
+    tools:context="com.example.android.utabazzar.StoreFragment"
     tools:showIn="@layout/activity_main">
 
     <android.support.v7.widget.RecyclerView

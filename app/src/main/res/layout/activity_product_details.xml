@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.nitkart.ProductDetails">
+    tools:context="com.example.android.utabazzar.ProductDetails">
 
     <ImageView
         android:layout_width="300dp"
