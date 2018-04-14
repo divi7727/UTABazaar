@@ -58,9 +58,11 @@ dependencies {
 
     compile 'com.google.code.gson:gson:2.6.1'
 
-
+    //Add Library
+    compile 'com.android.support:design:26.1.0'
+    compile 'com.firebaseui:firebase-ui:0.6.2'
 }
-
+apply plugin: 'com.google.gms.google-services'
 
 configurations.all {
     resolutionStrategy.eachDependency { DependencyResolveDetails details ->

@@ -19,7 +19,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.example.android.utabazzar.SplashScreen"
+            android:name=".SplashScreen"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,11 +27,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.utabazzar.MainActivity" />
-        <activity android:name="com.example.android.utabazzar.BottomNavigation" />
-        <activity android:name="com.example.android.utabazzar.SellActivity" />
-        <activity android:name="com.example.android.utabazzar.NoInternetActivity" />
-        <activity android:name="com.example.android.utabazzar.ProductDetails"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".BottomNavigation" />
+        <activity android:name=".SellActivity" />
+        <activity android:name=".NoInternetActivity" />
+        <activity android:name=".ProductDetails" />
+        <activity android:name=".ClubManagement"></activity>
     </application>
 
 </manifest>
