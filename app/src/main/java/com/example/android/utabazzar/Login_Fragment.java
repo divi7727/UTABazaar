@@ -63,6 +63,7 @@ public class Login_Fragment extends Fragment implements OnClickListener {
     String GOOGLE_EMAIL_URL = SERVER_DOMAIN + "/user/email_id/";
     String MY_PREFERENCES = "MY_PREFERENCES";
     String EMAIL_ID = "email_id";
+    String USER_NAME = "user_name";
     String PASSWORD = "password";
     String IS_LOGGED = "IS_LOGGED";
     String PHONE_NUMBER = "phone_number";
@@ -240,10 +241,15 @@ public class Login_Fragment extends Fragment implements OnClickListener {
                         @Override
                         public void onResponse(String response) {
                             Toast.makeText(getActivity(), response, Toast.LENGTH_SHORT).show();
+                            String []arrayEmail = response.toString().split(":");
+                            String tempEmail = arrayEmail[1].substring(13).replaceAll("\"\\}", "");
+                            tempEmail = tempEmail.trim();
+                            Log.d("Email Response", tempEmail);
                             Log.d("Response", response);
                             if (response.charAt(2) == 'S') {
                                 SharedPreferences.Editor editor = sharedPreferences.edit();
-                                editor.putString(EMAIL_ID, getEmailId);
+                                editor.putString(USER_NAME, getEmailId);
+                                editor.putString(EMAIL_ID, tempEmail);
                                 editor.putString(PASSWORD, getPassword);
                                 editor.putString(IS_LOGGED, "1");
                                 editor.commit();

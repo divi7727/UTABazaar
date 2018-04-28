@@ -140,7 +140,7 @@ public class ProfileFragment extends Fragment {
         Log.w("PHOTO::::::::::::",sharedPreferences.getString("photo_url","custom"));
 //        userPhoto.setImageURI(Uri.parse(sharedPreferences.getString("photo_url","custom")));
         Picasso.with(getContext()).load(sharedPreferences.getString("photo_url",deafultPic)).into(userPhoto);
-        userName.setText(sharedPreferences.getString("username","Name"));
+        userName.setText(sharedPreferences.getString("user_name","Name"));
         userEmail.setText(sharedPreferences.getString("email_id","email"));
 
         // LogOut Button
@@ -198,7 +198,7 @@ public class ProfileFragment extends Fragment {
             protected Map<String, String> getParams() {
                 Map<String, String> params = new HashMap<String, String>();
                 params.put("seller_email", sharedPreferences.getString("email_id","null"));
-                params.put("seller_email", "dhvanilhparikh@gmail.com");
+                params.put("seller_email", sharedPreferences.getString("email_id","email"));
                 return params;
             }
         };
