@@ -13,4 +13,4 @@ To start server: `python manage.py runserver [hostname:portNo]`
 * [Devi Prasad Tripathy](https://github.com/deviprasad97)
 * [Siddharth Vadgama](https://github.com/Siddharth1410)
 * [Zachery Gentry](https://github.com/)
-* [Divy Achary](https://github.com/)
+* [Divy Acharya](https://github.com/)
