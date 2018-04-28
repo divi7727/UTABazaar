@@ -20,7 +20,7 @@ import java.util.Map;
 
 public class ProductDetails extends AppCompatActivity {
 
-    Button delete;
+    Button delete, message;
     ImageView imageView;
     TextView producName, productPrice, productId, seller_name, seller_phone, seller_email, seller_block, seller_room, time_period;
     String prod_id;
@@ -42,6 +42,8 @@ public class ProductDetails extends AppCompatActivity {
         time_period = (TextView) findViewById(R.id.time_period);
 
         delete = (Button) findViewById(R.id.delete);
+
+        message = (Button) findViewById(R.id.message);
 
         Album album = (Album) getIntent().getSerializableExtra("Album");
         Picasso.with(this).load(MainActivity.domain + album.getUrl()).into(imageView);
@@ -86,6 +88,12 @@ public class ProductDetails extends AppCompatActivity {
                     }
                 };
                 SingletonRequestQueue.getInstance(ProductDetails.this).addToRequestQueue(stringRequest);
+            }
+        });
+        message.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
             }
         });
 

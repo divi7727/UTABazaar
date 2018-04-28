@@ -146,9 +146,9 @@ public class SellActivity extends AppCompatActivity implements Imageutils.ImageA
         getSellerName = sellerName.getText().toString();
         getSellerPhone = sellerPhone.getText().toString();
         getSellerEmailId = sellerEmail.getText().toString();
-        getSellerBlock = (sellerBlock.getText().toString());
-        getSellerRoom = (sellerRoom.getText().toString());
-        getTimePeriod = (timePeriod.getText().toString());
+        getSellerBlock = "00";
+        getSellerRoom = "00";
+        getTimePeriod = "00";
         getProductPrice = productPrice.getText().toString();
 
         // Pattern match for email id
