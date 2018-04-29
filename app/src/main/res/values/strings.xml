@@ -3,6 +3,26 @@
     <string name="title_store">Store</string>
     <string name="title_sell">Sell</string>
     <string name="title_profile">Profile</string>
+    <string name="title_message">Messages</string>
+    <string name="register">Register</string>
+
+
+
+
+    <string name="about">About</string>
+    <string name="login_success">login success</string>
+    <string name="Username">Email</string>
+    <string name="Password">Password</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="go">GO</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="next">NEXT</string>
+
+    <string name="hint_username">Enter a new username</string>
+    <string name="hint_email_reset">Enter your email</string>
+    <string name="enter_group_name">Enter group name</string>
+
+
 
     <!--login-->
     <string name="action_settings">Settings</string>

@@ -53,7 +53,12 @@ public class BottomNavigation extends AppCompatActivity {
                     toolbar.setTitle("Profile");
                     loadFragment(new ProfileFragment());
                     return true;
+                case R.id.navigation_message:
+                    toolbar.setTitle("Messages");
+                    loadFragment(new StoreFragment());
+                    return true;
             }
+
             return false;
         }
     };

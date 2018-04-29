@@ -10,10 +10,15 @@
         android:id="@+id/navigation_shop"
         android:icon="@drawable/ic_store_white_24dp"
         android:title="@string/title_store" />
+    <item
+        android:id="@+id/navigation_message"
+        android:icon="@drawable/messenger_bubble_small_white"
+        android:title="@string/title_message" />
 
     <item
         android:id="@+id/navigation_profile"
         android:icon="@drawable/ic_person_white_24dp"
         android:title="@string/title_profile" />
+
 
 </menu>

@@ -27,6 +27,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.android.utabazzar.ui.LoginActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentBackground">
+        </activity>
+        <activity
+            android:name="com.example.android.utabazzar.ui.RegisterActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Translucent" />
+
+        <activity
+            android:name="com.example.android.utabazzar.ui.ChatActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.example.android.utabazzar.MainActivity"/>
+        <activity android:name="com.example.android.utabazzar.ui.AddGroupActivity"
+            android:theme="@style/Theme.AppCompat.Transparent"/>
+        <service android:name="com.example.android.utabazzar.service.FriendChatService"
+            android:exported="false"
+            android:persistent= "true" />
+
         <activity android:name=".MainActivity" />
         <activity android:name=".BottomNavigation" />
         <activity android:name=".SellActivity" />
