@@ -64,6 +64,9 @@ public class BottomNavigation extends AppCompatActivity {
                 case R.id.navigation_message:
 
                     return true;
+                case R.id.club_management:
+
+                    return true;
             }
 
             return false;
