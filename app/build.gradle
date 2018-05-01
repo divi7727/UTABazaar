@@ -65,6 +65,11 @@ dependencies {
     compile 'com.android.support:design:26.1.0'
     compile 'com.firebaseui:firebase-ui:0.6.2'
     compile 'com.google.android.gms:play-services-ads:15.0.0'
+
+    compile 'com.jakewharton:butterknife:8.4.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+    compile 'com.jakewharton.timber:timber:4.3.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
 }
 
 apply plugin: 'com.google.gms.google-services'

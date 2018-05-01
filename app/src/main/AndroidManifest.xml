@@ -55,6 +55,23 @@
         <activity android:name=".NoInternetActivity" />
         <activity android:name=".ProductDetails" />
         <activity android:name=".ClubManagement"></activity>
+        <activity
+            android:name=".ui.activity.CommentsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Transparent" />
+        <activity
+            android:name=".ui.activity.UserProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Transparent" />
+        <activity
+            android:name=".ui.activity.TakePhotoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Transparent" />
+        <activity
+            android:name=".ui.activity.PublishActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden"/>
     </application>
 
 </manifest>

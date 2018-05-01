@@ -14,6 +14,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.example.android.utabazzar.ui.UserProfileFragment;
+import com.example.android.utabazzar.ui.activity.UserProfileActivity;
+
 public class BottomNavigation extends AppCompatActivity {
     public ActionBar toolbar;
     boolean doubleBackToExitPressedOnce = false;
@@ -50,12 +53,16 @@ public class BottomNavigation extends AppCompatActivity {
                     finish();
                     return true;
                 case R.id.navigation_profile:
-                    toolbar.setTitle("Profile");
-                    loadFragment(new ProfileFragment());
-                    return true;
+                    //toolbar.setTitle("Profile");
+                    //toolbar.setTitle("Messages");
+                    //loadFragment(new StoreFragment());
+                    //Intent intent1=new Intent(getApplicationContext(),UserProfileActivity.class);
+                    //startActivity(intent1);
+                    //finish();
+                    //loadFragment(new UserProfileFragment());
+                    //return true;
                 case R.id.navigation_message:
-                    toolbar.setTitle("Messages");
-                    loadFragment(new StoreFragment());
+
                     return true;
             }
 

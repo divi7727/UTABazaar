@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -65,11 +66,13 @@ public class UserProfileFragment extends Fragment {
     private static final String SIGNOUT_LABEL = "Sign out";
     private static final String RESETPASS_LABEL = "Change Password";
 
+    SharedPreferences sharedPreferences;
+    String myPreferences = "MY_PREFERENCES";
+    String emailId = "email_id";
+
     private static final int PICK_IMAGE = 1994;
     private LovelyProgressDialog waitingDialog;
 
-    private DatabaseReference userDB;
-    private FirebaseAuth mAuth;
     private User myAccount;
     private Context context;
 
@@ -113,12 +116,9 @@ public class UserProfileFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        userDB = FirebaseDatabase.getInstance().getReference().child("user").child(StaticConfig.UID);
-        userDB.addListenerForSingleValueEvent(userListener);
-        mAuth = FirebaseAuth.getInstance();
-
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_info, container, false);
+        sharedPreferences = this.getActivity().getSharedPreferences(myPreferences, Context.MODE_PRIVATE);
         context = view.getContext();
         avatar = (ImageView) view.findViewById(R.id.img_avatar);
         avatar.setOnClickListener(onAvatarClick);
@@ -128,7 +128,7 @@ public class UserProfileFragment extends Fragment {
         myAccount = prefHelper.getUserInfo();
         setupArrayListInfo(myAccount);
         setImageAvatar(context, myAccount.avata);
-        tvUserName.setText(myAccount.name);
+        tvUserName.setText(sharedPreferences.getString("user_name","Name"));
 
         recyclerView = (RecyclerView)view.findViewById(R.id.info_recycler_view);
         infoAdapter = new UserInfoAdapter(listConfig);
@@ -195,38 +195,6 @@ public class UserProfileFragment extends Fragment {
                         .setTitle("Avatar updating....")
                         .setTopColorRes(R.color.colorPrimary)
                         .show();
-
-                userDB.child("avata").setValue(imageBase64)
-                        .addOnCompleteListener(new OnCompleteListener<Void>() {
-                            @Override
-                            public void onComplete(@NonNull Task<Void> task) {
-                                if(task.isSuccessful()){
-
-                                    waitingDialog.dismiss();
-                                    SharedPreferenceHelper preferenceHelper = SharedPreferenceHelper.getInstance(context);
-                                    preferenceHelper.saveUserInfo(myAccount);
-                                    avatar.setImageDrawable(ImageUtils.roundedImage(context, liteImage));
-
-                                    new LovelyInfoDialog(context)
-                                            .setTopColorRes(R.color.colorPrimary)
-                                            .setTitle("Success")
-                                            .setMessage("Update avatar successfully!")
-                                            .show();
-                                }
-                            }
-                         })
-                        .addOnFailureListener(new OnFailureListener() {
-                            @Override
-                            public void onFailure(@NonNull Exception e) {
-                                waitingDialog.dismiss();
-                                Log.d("Update Avatar", "failed");
-                                new LovelyInfoDialog(context)
-                                        .setTopColorRes(R.color.colorAccent)
-                                        .setTitle("False")
-                                        .setMessage("False to update avatar")
-                                        .show();
-                            }
-                        });
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             }
@@ -363,7 +331,6 @@ public class UserProfileFragment extends Fragment {
          * Cập nhật username mới vào SharedPreference và thay đổi trên giao diện
          */
         private void changeUserName(String newName){
-            userDB.child("name").setValue(newName);
 
 
             myAccount.name = newName;
@@ -375,53 +342,7 @@ public class UserProfileFragment extends Fragment {
         }
 
         void resetPassword(final String email) {
-            mAuth.sendPasswordResetEmail(email)
-                    .addOnCompleteListener(new OnCompleteListener<Void>() {
-                        @Override
-                        public void onComplete(@NonNull Task<Void> task) {
-                            new LovelyInfoDialog(context) {
-                                @Override
-                                public LovelyInfoDialog setConfirmButtonText(String text) {
-                                    findView(com.yarolegovich.lovelydialog.R.id.ld_btn_confirm).setOnClickListener(new View.OnClickListener() {
-                                        @Override
-                                        public void onClick(View view) {
-                                            dismiss();
-                                        }
-                                    });
-                                    return super.setConfirmButtonText(text);
-                                }
-                            }
-                                    .setTopColorRes(R.color.colorPrimary)
-                                    .setIcon(R.drawable.ic_pass_reset)
-                                    .setTitle("Password Recovery")
-                                    .setMessage("Sent email to " + email)
-                                    .setConfirmButtonText("Ok")
-                                    .show();
-                        }
-                    })
-                    .addOnFailureListener(new OnFailureListener() {
-                        @Override
-                        public void onFailure(@NonNull Exception e) {
-                            new LovelyInfoDialog(context) {
-                                @Override
-                                public LovelyInfoDialog setConfirmButtonText(String text) {
-                                    findView(com.yarolegovich.lovelydialog.R.id.ld_btn_confirm).setOnClickListener(new View.OnClickListener() {
-                                        @Override
-                                        public void onClick(View view) {
-                                            dismiss();
-                                        }
-                                    });
-                                    return super.setConfirmButtonText(text);
-                                }
-                            }
-                                    .setTopColorRes(R.color.colorAccent)
-                                    .setIcon(R.drawable.ic_pass_reset)
-                                    .setTitle("False")
-                                    .setMessage("False to sent email to " + email)
-                                    .setConfirmButtonText("Ok")
-                                    .show();
-                        }
-                    });
+
         }
 
         @Override
