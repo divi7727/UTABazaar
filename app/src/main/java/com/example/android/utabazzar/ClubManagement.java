@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -18,6 +19,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.example.android.utabazzar.ui.activity.UserProfileActivity;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -41,6 +43,7 @@ public class ClubManagement extends AppCompatActivity {
 
     SharedPreferences sharedPreferences;
     String myPreferences = "MY_PREFERENCES";
+    public ActionBar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,6 +62,8 @@ public class ClubManagement extends AppCompatActivity {
 
         final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>
                 (this, android.R.layout.simple_list_item_1, clubs_list);
+
+        final Toast t = Toast.makeText(this,"You are not allowed in this club", Toast.LENGTH_SHORT);
 
         // Write a message to the database
         final FirebaseDatabase database = FirebaseDatabase.getInstance();
@@ -121,7 +126,7 @@ public class ClubManagement extends AppCompatActivity {
                 }
                 else{
                     System.out.println("Go away");
-
+                    t.show();
                 }
             }
         });
@@ -160,5 +165,12 @@ public class ClubManagement extends AppCompatActivity {
         });
 
         builder.show();
+    }
+
+    public void onBackPressed() {
+        Intent intent = new Intent(ClubManagement.this, BottomNavigation.class);
+        startActivity(intent);
+        finish();
+        toolbar = getSupportActionBar();
     }
 }

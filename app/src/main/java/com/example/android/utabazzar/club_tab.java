@@ -31,7 +31,7 @@ public class club_tab extends AppCompatActivity {
         BottomNavigationView navigation = findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
-        toolbar.setTitle("Store");
+        toolbar.setTitle("Club Store");
         loadFragment(new StoreFragment());
     }
 
@@ -42,32 +42,18 @@ public class club_tab extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_shop:
-                    toolbar.setTitle("Store");
+                    toolbar.setTitle("Club Store");
                     loadFragment(new StoreFragment());
                     return true;
                 case R.id.navigation_cart:
 //                    fragment = new SellFragment();
 //                    loadFragment(fragment);
+
+                    return true;
+                case R.id.club_navigation_message:
                     Intent intent = new Intent(getApplicationContext(),club_chat.class);
 
                     startActivity(intent);
-                    finish();
-                    return true;
-                case R.id.navigation_profile:
-                    //toolbar.setTitle("Profile");
-                    //toolbar.setTitle("Messages");
-                    //loadFragment(new StoreFragment());
-                    //Intent intent1=new Intent(getApplicationContext(),UserProfileActivity.class);
-                    //startActivity(intent1);
-                    //finish();
-                    //loadFragment(new UserProfileFragment());
-                    //return true;
-                case R.id.navigation_message:
-
-                    return true;
-                case R.id.club_management:
-                    Intent intent1=new Intent(getApplicationContext(),ClubManagement.class);
-                    startActivity(intent1);
                     finish();
                     return true;
             }
