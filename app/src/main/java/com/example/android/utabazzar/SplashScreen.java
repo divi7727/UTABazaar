@@ -36,7 +36,7 @@ public class SplashScreen extends AppCompatActivity {
                 try {
                     sleep(1800);
                     if (sharedPreferences.getString(IS_LOGGED, "0").equals("1")) {
-                        Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                        Intent intent = new Intent(getApplicationContext(), BottomNavigation.class);
                         startActivity(intent);
                         finish();
                     }
