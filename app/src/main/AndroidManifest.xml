@@ -67,6 +67,8 @@
             android:name=".ui.activity.TakePhotoActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Transparent" />
+        <activity android:name=".Chat_room"/>
+        <activity android:name=".ChatActivity"/>
         <activity
             android:name=".ui.activity.PublishActivity"
             android:screenOrientation="portrait"

@@ -53,16 +53,15 @@ public class BottomNavigation extends AppCompatActivity {
                     finish();
                     return true;
                 case R.id.navigation_profile:
-                    //toolbar.setTitle("Profile");
+                    toolbar.setTitle("Profile");
                     //toolbar.setTitle("Messages");
                     //loadFragment(new StoreFragment());
-                    Intent intent1=new Intent(getApplicationContext(),ProductDetails1.class);
-                    startActivity(intent1);
-                    finish();
-                    //loadFragment(new UserProfileFragment());
-                    //return true;
+                    loadFragment(new UserProfileFragment());
+                    return true;
                 case R.id.navigation_message:
-
+                    Intent intent2= new Intent(getApplicationContext(),ChatActivity.class);
+                    startActivity(intent2);
+                    finish();
                     return true;
                 case R.id.club_management:
 
