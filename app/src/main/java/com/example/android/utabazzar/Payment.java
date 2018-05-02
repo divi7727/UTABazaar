@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -41,6 +42,7 @@ public class Payment extends AppCompatActivity {
 
     Button btnPay;
     EditText etAmount;
+    TextView etMessage;
     LinearLayout llHolder;
 
     @Override
@@ -48,15 +50,16 @@ public class Payment extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment);
         llHolder = (LinearLayout) findViewById(R.id.llHolder);
-        etAmount = (EditText) findViewById(R.id.etPrice);
+        etMessage = (TextView) findViewById(R.id.tvMessage);
+        etMessage.setText("Total Amount Due: $" + ProductDetails1.productPriceUsd);
+        //etAmount = (EditText) findViewById(R.id.etPrice);
         btnPay = (Button) findViewById(R.id.btnPay);
         btnPay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBraintreeSubmit();
             }
-        });
-        new HttpRequest().execute();
+        });new HttpRequest().execute();
     }
 
     @Override
@@ -69,8 +72,10 @@ public class Payment extends AppCompatActivity {
                 Log.d("mylog", "Result: " + stringNonce);
                 // Send payment price with the nonce
                 // use the result to update your UI and send the payment method nonce to your server
-                if (!etAmount.getText().toString().isEmpty()) {
-                    amount = etAmount.getText().toString();
+                Log.e("USD", ProductDetails1.productPriceUsd);
+                if (etMessage.getText().toString().length()!=0) {
+
+                    amount = etMessage.getText().toString();
                     paramHash = new HashMap<>();
                     paramHash.put("amount", amount);
                     paramHash.put("nonce", stringNonce);

@@ -27,21 +27,6 @@
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp">
-
-                <EditText
-                    android:id="@+id/etPrice"
-                    android:layout_width="match_parent"
-                    android:inputType="text"
-                    android:imeOptions="actionDone"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:hint="Choose the amount to pay" />
-
-            </android.support.design.widget.TextInputLayout>
 
             <Button
                 android:id="@+id/btnPay"
