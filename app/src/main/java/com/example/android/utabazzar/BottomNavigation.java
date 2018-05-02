@@ -65,7 +65,9 @@ public class BottomNavigation extends AppCompatActivity {
 
                     return true;
                 case R.id.club_management:
-
+                    Intent intent1=new Intent(getApplicationContext(),ClubManagement.class);
+                    startActivity(intent1);
+                    finish();
                     return true;
             }
 

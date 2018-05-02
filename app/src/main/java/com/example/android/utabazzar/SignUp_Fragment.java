@@ -24,13 +24,15 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class SignUp_Fragment extends Fragment implements OnClickListener {
+public class  SignUp_Fragment extends Fragment implements OnClickListener {
     private static View view;
     private static EditText fullName, userName, emailId, mobileNumber, location,
             password, confirmPassword;
@@ -46,6 +48,8 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
     String passWord = "password";
     String phoneNumber = "phone_number";
     SharedPreferences sharedPreferences;
+    FirebaseDatabase database = FirebaseDatabase.getInstance();
+    final DatabaseReference myRef = database.getReference("members");
 
 
     public SignUp_Fragment() {
@@ -113,7 +117,7 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
     private void checkValidation() {
 
         // Get all edit text texts
-        String getFullName = fullName.getText().toString();
+        final String getFullName = fullName.getText().toString();
         final String getEmailId = emailId.getText().toString();
         final String getUserName = userName.getText().toString();
         final String getMobileNumber = mobileNumber.getText().toString();
@@ -171,6 +175,7 @@ public class SignUp_Fragment extends Fragment implements OnClickListener {
                                 editor.putString("email_id", getEmailId);
                                 editor.putString("phone_number", getMobileNumber);
                                 editor.commit();
+                                myRef.child("members").child(getUserName).child("name").setValue(getFullName);
                                 Intent intent = new Intent(getActivity(), BottomNavigation.class);
                                 startActivity(intent);
                                 getActivity().finish();

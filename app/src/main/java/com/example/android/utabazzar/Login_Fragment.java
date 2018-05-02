@@ -254,6 +254,7 @@ public class Login_Fragment extends Fragment implements OnClickListener {
                                 editor.putString(IS_LOGGED, "1");
                                 editor.commit();
                                 Intent intent = new Intent(getActivity(), BottomNavigation.class);
+
                                 startActivity(intent);
                                 getActivity().finish();
                             } else {
