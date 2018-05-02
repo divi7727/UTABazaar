@@ -80,7 +80,7 @@ public class SellActivity extends AppCompatActivity implements Imageutils.ImageA
         sharedPreferences = getApplicationContext().getSharedPreferences(myPreferences, Context.MODE_PRIVATE);
         sellerEmail.setText(sharedPreferences.getString("email_id", null));
 //        sellerEmail.setFocusable(false);
-        sellerName.setText(sharedPreferences.getString("username", null));
+       // sellerName.setText(sharedPreferences.getString("username", null));
         sellerPhone.setText(sharedPreferences.getString("phone_number", null));
 
 
@@ -146,7 +146,7 @@ public class SellActivity extends AppCompatActivity implements Imageutils.ImageA
         getSellerName = sellerName.getText().toString();
         getSellerPhone = sellerPhone.getText().toString();
         getSellerEmailId = sellerEmail.getText().toString();
-        getSellerBlock = "00";
+        getSellerBlock = sharedPreferences.getString("username", null);
         getSellerRoom = "00";
         getTimePeriod = "00";
         getProductPrice = productPrice.getText().toString();

@@ -30,6 +30,7 @@ public class BottomNavigation extends AppCompatActivity {
 
         BottomNavigationView navigation = findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+        BottomNavigationViewHelper.disableShiftMode(navigation);
 
         toolbar.setTitle("Store");
         loadFragment(new StoreFragment());
@@ -59,7 +60,7 @@ public class BottomNavigation extends AppCompatActivity {
                     loadFragment(new UserProfileFragment());
                     return true;
                 case R.id.navigation_message:
-                    Intent intent2= new Intent(getApplicationContext(),ChatActivity.class);
+                    Intent intent2= new Intent(getApplicationContext(),ChatActivityView.class);
                     startActivity(intent2);
                     finish();
                     return true;

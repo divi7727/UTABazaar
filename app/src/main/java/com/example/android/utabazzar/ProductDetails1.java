@@ -1,7 +1,10 @@
 package com.example.android.utabazzar;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -16,7 +19,7 @@ public class ProductDetails1 extends AppCompatActivity {
     ImageView imageView;
     TextView producName, productPrice, productId, seller_name, seller_phone, seller_email, seller_block, seller_room, time_period;
     String prod_id;
-
+    public static String seller_email_stat, product_name_stat, seller_utaid_stat;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,7 +47,18 @@ public class ProductDetails1 extends AppCompatActivity {
         producName.setText(album.getProduct_name());
         productPrice.setText("$"+album.getProduct_price());
         seller_name.setText(album.getSeller_name());
+        seller_email_stat = album.getSeller_email();
+        seller_utaid_stat = album.getSeller_block();
+        product_name_stat = album.getProduct_name();
 
+        FloatingActionButton myFab = (FloatingActionButton) findViewById(R.id.messageSeller);
+        myFab.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent2= new Intent(getApplicationContext(),ChatActivity.class);
+                startActivity(intent2);
+                finish();
+            }
+        });
         //productId.setText(album.getProduct_id());
         //seller_phone.setText(album.getSeller_phone());
         //seller_email.setText(album.getSeller_email());

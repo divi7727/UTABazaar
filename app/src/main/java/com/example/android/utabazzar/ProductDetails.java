@@ -1,5 +1,7 @@
 package com.example.android.utabazzar;
 
+import android.content.Intent;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -29,6 +31,7 @@ public class ProductDetails extends AppCompatActivity {
     TextView producName, productPrice, productId, seller_name, seller_phone, seller_email, seller_block, seller_room, time_period;
     String prod_id;
     String clientToken;
+    public static String seller_email_stat;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +49,7 @@ public class ProductDetails extends AppCompatActivity {
         seller_room = (TextView) findViewById(R.id.seller_room);
         time_period = (TextView) findViewById(R.id.time_period);
 
+
         delete = (Button) findViewById(R.id.delete);
 
         message = (Button) findViewById(R.id.message);
@@ -61,7 +65,7 @@ public class ProductDetails extends AppCompatActivity {
         seller_block.setText(album.getSeller_block());
         seller_room.setText(album.getSeller_room());
         time_period.setText(album.getTime_period());
-
+        seller_email_stat = album.getSeller_email();
         prod_id = album.getProduct_id();
 
         delete.setOnClickListener(new View.OnClickListener() {

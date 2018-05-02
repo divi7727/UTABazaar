@@ -69,6 +69,8 @@
             android:theme="@style/Theme.AppCompat.Transparent" />
         <activity android:name=".Chat_room"/>
         <activity android:name=".ChatActivity"/>
+        <activity android:name=".ChatActivityView"/>
+
         <activity
             android:name=".ui.activity.PublishActivity"
             android:screenOrientation="portrait"

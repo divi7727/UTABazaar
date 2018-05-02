@@ -16,8 +16,6 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.android.volley.toolbox.StringRequest;
-import com.example.android.utabazzar.ui.activity.UserProfileActivity;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -32,7 +30,7 @@ import java.util.Map;
 import java.util.Set;
 
 
-public class ChatActivity extends AppCompatActivity {
+public class ChatActivityView extends AppCompatActivity {
     private Button  add_room;
     public ActionBar toolbar;
     private EditText room_name;
@@ -49,7 +47,7 @@ public class ChatActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat2);
-        sharedPreferences = ChatActivity.this.getSharedPreferences(myPreferences, Context.MODE_PRIVATE);
+        sharedPreferences = ChatActivityView.this.getSharedPreferences(myPreferences, Context.MODE_PRIVATE);
         add_room = (Button) findViewById(R.id.btn_add_room);
         room_name = (EditText) findViewById(R.id.room_name_edittext);
         listView = (ListView) findViewById(R.id.listView);
@@ -62,14 +60,7 @@ public class ChatActivity extends AppCompatActivity {
         utaID = sharedPreferences.getString("user_name","Name");
         //request_user_name();
 
-        Map<String,Object> map = new HashMap<String, Object>();
-        map.put(ProductDetails1.product_name_stat+"@"+ProductDetails1.seller_utaid_stat+"@"+utaID,"");
-        root.updateChildren(map);
 
-        Intent intent = new Intent(getApplicationContext(),Chat_room.class);
-        intent.putExtra("room_name",ProductDetails1.product_name_stat+"@"+ProductDetails1.seller_utaid_stat+"@"+utaID);
-        intent.putExtra("user_name",name);
-        startActivity(intent);
         /*
         add_room.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -91,9 +82,11 @@ public class ChatActivity extends AppCompatActivity {
                 Iterator i = dataSnapshot.getChildren().iterator();
                 String temp;
                 while (i.hasNext()){
-                    if(((DataSnapshot)i.next()).getKey().contains(utaID)){
-                        set.add(((DataSnapshot)i.next()).getKey());
+                    temp = ((DataSnapshot)i.next()).getKey();
+                    if(temp.contains(utaID)){
+                        set.add(temp.substring(0,temp.lastIndexOf("@")));
                     }
+                    //i.next();
                 }
 
                 list_of_rooms.clear();
@@ -113,7 +106,7 @@ public class ChatActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
                 Intent intent = new Intent(getApplicationContext(),Chat_room.class);
-                intent.putExtra("room_name",((TextView)view).getText().toString() );
+                intent.putExtra("room_name",((TextView)view).getText().toString()+"@"+utaID);
                 intent.putExtra("user_name",name);
                 startActivity(intent);
             }
@@ -122,7 +115,7 @@ public class ChatActivity extends AppCompatActivity {
     }
 
     public void onBackPressed() {
-        Intent intent = new Intent(ChatActivity.this, BottomNavigation.class);
+        Intent intent = new Intent(ChatActivityView.this, BottomNavigation.class);
         startActivity(intent);
         finish();
         toolbar = getSupportActionBar();
