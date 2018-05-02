@@ -13,10 +13,14 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
+import com.loopj.android.http.AsyncHttpClient;
+import com.loopj.android.http.TextHttpResponseHandler;
 import com.squareup.picasso.Picasso;
 
 import java.util.HashMap;
 import java.util.Map;
+
+import cz.msebera.android.httpclient.Header;
 
 public class ProductDetails extends AppCompatActivity {
 
@@ -24,6 +28,7 @@ public class ProductDetails extends AppCompatActivity {
     ImageView imageView;
     TextView producName, productPrice, productId, seller_name, seller_phone, seller_email, seller_block, seller_room, time_period;
     String prod_id;
+    String clientToken;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,5 +102,20 @@ public class ProductDetails extends AppCompatActivity {
             }
         });
 
+        AsyncHttpClient client = new AsyncHttpClient();
+        client.get("https://your-server/client_token", new TextHttpResponseHandler() {
+            @Override
+            public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
+
+            }
+
+            @Override
+            public void onSuccess(int statusCode, Header[] headers, String clientToken) {
+               // this.clie = clientToken;
+            }
+
+        });
+
     }
+
 }

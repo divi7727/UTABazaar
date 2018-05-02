@@ -65,7 +65,7 @@ public class AlbumsAdapter extends RecyclerView.Adapter<AlbumsAdapter.MyViewHold
             public void onClick(View v) {
                 //implement onClick
                 System.out.println("Clicked");
-                Intent intent = new Intent(v.getContext(), ProductDetails.class);
+                Intent intent = new Intent(v.getContext(), ProductDetails1.class);
                 intent.putExtra("Album", album);
                 v.getContext().startActivity(intent);
                 Toast.makeText(v.getContext(), album.getUrl(), Toast.LENGTH_LONG).show();
@@ -75,7 +75,7 @@ public class AlbumsAdapter extends RecyclerView.Adapter<AlbumsAdapter.MyViewHold
         thumbnail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(), ProductDetails.class);
+                Intent intent = new Intent(v.getContext(), ProductDetails1.class);
                 intent.putExtra("Album", album);
                 v.getContext().startActivity(intent);
                 Toast.makeText(v.getContext(), album.getUrl(), Toast.LENGTH_LONG).show();

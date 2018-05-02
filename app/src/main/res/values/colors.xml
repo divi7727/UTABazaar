@@ -12,6 +12,7 @@
     <color name="button_selectorcolor">#9E9E9E</color>
     <color name="myAppTheme">#6231de</color>
 
+    <color name="text">#151517</color>
 
 
     <color name="colorIndivateTab">#FFFFFF</color>
@@ -22,6 +23,9 @@
     <color name="grey_100">#F5F5F5</color>
     <color name="grey_800">#212121</color>
 
+
+    <color name="subtext">#5f5f5f</color>
+    <color name="colordevider">#64dad8d8</color>
 
     <color name="fab_color_pressed">#007787</color>
     <color name="fab_color_shadow">#44000000</color>

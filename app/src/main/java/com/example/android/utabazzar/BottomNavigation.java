@@ -56,9 +56,9 @@ public class BottomNavigation extends AppCompatActivity {
                     //toolbar.setTitle("Profile");
                     //toolbar.setTitle("Messages");
                     //loadFragment(new StoreFragment());
-                    //Intent intent1=new Intent(getApplicationContext(),UserProfileActivity.class);
-                    //startActivity(intent1);
-                    //finish();
+                    Intent intent1=new Intent(getApplicationContext(),ProductDetails1.class);
+                    startActivity(intent1);
+                    finish();
                     //loadFragment(new UserProfileFragment());
                     //return true;
                 case R.id.navigation_message:
