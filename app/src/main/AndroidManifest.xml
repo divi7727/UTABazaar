@@ -54,6 +54,7 @@
         <activity android:name=".SellActivity" />
         <activity android:name=".NoInternetActivity" />
         <activity android:name=".ProductDetails" />
+        <activity android:name=".Payment" />
         <activity android:name=".ClubManagement"></activity>
         <activity
             android:name=".ui.activity.CommentsActivity"
