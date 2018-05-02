@@ -75,7 +75,9 @@
         <activity android:name=".ClubManagement" />
         <activity android:name=".ClubMembers" />
         <activity android:name=".club_tab" />
-
+        <activity android:name=".Chat_room" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".club_chat"></activity>
     </application>
 
 </manifest>

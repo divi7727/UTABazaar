@@ -62,7 +62,9 @@ public class BottomNavigation extends AppCompatActivity {
                     //loadFragment(new UserProfileFragment());
                     //return true;
                 case R.id.navigation_message:
-
+                    Intent messagesIntent=new Intent(getApplicationContext(),ChatActivity.class);
+                    startActivity(messagesIntent);
+                    finish();
                     return true;
                 case R.id.club_management:
                     Intent intent1=new Intent(getApplicationContext(),ClubManagement.class);

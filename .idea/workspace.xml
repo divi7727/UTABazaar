@@ -10,619 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aa132c1-86ad-4cc3-95f6-38b985e28cb0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_0_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_0_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_0_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customtabs_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_palette_v7_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_percent_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_26_1_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v13_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_1_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_volley_volley_1_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_android_sdk_4_14_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_firebaseui_firebase_ui_0_6_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_firebaseui_firebase_ui_auth_0_6_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_firebaseui_firebase_ui_database_0_6_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_firebaseui_firebase_ui_storage_0_6_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_Q42_AndroidScrollingImageView_1_3_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_3_7_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_base_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_identifier_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_lite_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_api_phone_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_base_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_flags_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gass_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_base_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_6_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_core_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_collection_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_connection_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_15_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_storage_9_8_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_storage_common_9_8_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_8_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_annotations_8_4_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_timber_timber_4_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_parse_bolts_bolts_android_1_4_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_parse_bolts_bolts_applinks_1_4_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_parse_bolts_bolts_tasks_1_4_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_romainpiel_shimmer_library_1_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_5_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yarolegovich_lovely_dialog_1_0_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__de_hdodenhof_circleimageview_2_2_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__id_zelory_compressor_2_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxjava_2_1_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__pl_droidsonroids_gif_android_gif_drawable_1_2_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ClubMembers.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_club_members.xml" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileChanges/last-build.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileChanges/last-build.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileChanges/last-build.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileChanges/last-build.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileContent/fileContent.lock" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/club_chat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_club_chat.xml" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_percent_26_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_ads_15_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_ads_base_15_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_ads_identifier_15_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_ads_lite_15_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_auth_15_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_auth_api_phone_15_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_auth_base_15_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_base_15_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_basement_15_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_flags_15_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_gass_15_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_measurement_base_15_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_stats_15_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_android_gms_play_services_tasks_15_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_firebase_firebase_analytics_15_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_firebase_firebase_analytics_impl_15_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_firebase_firebase_auth_15_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_firebase_firebase_common_15_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_firebase_firebase_core_15_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_google_firebase_firebase_iid_15_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_jakewharton_butterknife_8_4_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_jakewharton_butterknife_annotations_8_4_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_jakewharton_timber_timber_4_3_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_yarolegovich_lovely_dialog_1_0_4.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/App.iml" afterPath="$PROJECT_DIR$/App.iml" />
-      <change beforePath="$PROJECT_DIR$/NITKART-App.iml" afterPath="$PROJECT_DIR$/NITKART-App.iml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/UTABazzarFrontend.iml" afterPath="$PROJECT_DIR$/UTABazzarFrontend.iml" />
-      <change beforePath="$PROJECT_DIR$/app/.gitignore" afterPath="$PROJECT_DIR$/app/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/app/google-services.json" afterPath="$PROJECT_DIR$/app/google-services.json" />
-      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/android/utabazzar/ExampleInstrumentedTest.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/android/utabazzar/ExampleInstrumentedTest.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/Album.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/Album.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/AlbumsAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/AlbumsAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/AppHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/AppHelper.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/BottomNavigation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/BottomNavigation.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ChatMessage.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ChatMessage.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ClubManagement.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ClubManagement.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/CustomToast.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/CustomToast.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/InstaMaterialApplication.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/InstaMaterialApplication.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/Login_Fragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/Login_Fragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/MainActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/MenuFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/MenuFragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/Messaging.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/Messaging.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/NoInternetActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/NoInternetActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/Product.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/Product.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ProductDetails.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ProductDetails.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ProfileFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ProfileFragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/SellActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/SellActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/SignUp_Fragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/SignUp_Fragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/SingletonRequestQueue.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/SingletonRequestQueue.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/SplashScreen.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/SplashScreen.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/StoreFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/StoreFragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/Utils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/Utils.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/VolleyMultipartRequest.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/VolleyMultipartRequest.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/data/FriendDB.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/data/FriendDB.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/data/GroupDB.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/data/GroupDB.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/data/SharedPreferenceHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/data/SharedPreferenceHelper.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/data/StaticConfig.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/data/StaticConfig.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/model/Configuration.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/model/Configuration.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/model/Consersation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/model/Consersation.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/model/Friend.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/model/Friend.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/model/Group.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/model/Group.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/model/ListFriend.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/model/ListFriend.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/model/Message.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/model/Message.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/model/Room.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/model/Room.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/model/Status.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/model/Status.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/model/User.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/model/User.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/service/FriendChatService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/service/FriendChatService.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/service/ServiceUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/service/ServiceUtils.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/AddGroupActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/AddGroupActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/ChatActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/ChatActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/FriendsFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/FriendsFragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/GroupFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/GroupFragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/LoginActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/RegisterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/RegisterActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/UserProfileFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/UserProfileFragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/activity/BaseActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/activity/BaseActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/activity/BaseDrawerActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/activity/BaseDrawerActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/activity/CommentsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/activity/CommentsActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/activity/PublishActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/activity/PublishActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/activity/TakePhotoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/activity/TakePhotoActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/activity/UserProfileActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/activity/UserProfileActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/adapter/CommentsAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/adapter/CommentsAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/adapter/FeedAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/adapter/FeedAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/adapter/FeedItemAnimator.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/adapter/FeedItemAnimator.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/adapter/PhotoFiltersAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/adapter/PhotoFiltersAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/adapter/UserProfileAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/adapter/UserProfileAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/utils/CircleTransformation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/utils/CircleTransformation.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/utils/RoundedTransformation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/utils/RoundedTransformation.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/view/FeedContextMenu.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/view/FeedContextMenu.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/view/FeedContextMenuManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/view/FeedContextMenuManager.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/view/LoadingFeedItemView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/view/LoadingFeedItemView.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/view/RevealBackgroundView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/view/RevealBackgroundView.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/view/SendCommentButton.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/view/SendCommentButton.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/view/SendingProgressView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/view/SendingProgressView.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/view/SquaredFrameLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/view/SquaredFrameLayout.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/view/SquaredImageView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ui/view/SquaredImageView.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/util/ImageUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/util/ImageUtils.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/cycle.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/cycle.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/cycle_2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/cycle_2.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/left_enter.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/left_enter.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/left_out.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/left_out.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/right_enter.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/right_enter.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/right_out.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/right_out.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/shake.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/shake.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/shake_error.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/shake_error.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_done.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_done.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_from_left.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_from_left.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_from_right.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_from_right.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_likes_counter.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_likes_counter.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_send.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_send.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_done.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_done.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_likes_counter.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_likes_counter.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_send.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_send.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_to_left.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_to_left.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_to_right.xml" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_to_right.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/color/selector_item_gray_color.xml" afterPath="$PROJECT_DIR$/app/src/main/res/color/selector_item_gray_color.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/color/selector_item_primary_color.xml" afterPath="$PROJECT_DIR$/app/src/main/res/color/selector_item_primary_color.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bg.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bg.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bg_input_cursor.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bg_input_cursor.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bg_input_cursor_2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bg_input_cursor_2.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bt_shape.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bt_shape.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bt_shape_2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bt_shape_2.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/circle_background.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/circle_background.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/default_avata.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/default_avata.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/edittext_boder.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/edittext_boder.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/fg1.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/fg1.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/fg2.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/fg2.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/fg3.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/fg3.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/fg4.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/fg4.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/fg5.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/fg5.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/fg6.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/fg6.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/fg7.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/fg7.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/fg8.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/fg8.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/fg9.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/fg9.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/hieuapp.jpg" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/hieuapp.jpg" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_accept_cr_group.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_accept_cr_group.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_name.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_name.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_add_friend.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_add_friend.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_add_group_dialog.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_add_group_dialog.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_btn_more.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_btn_more.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_card_giftcard_white_24dp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_card_giftcard_white_24dp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_dialog_delete_group.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_dialog_delete_group.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_float_add_group.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_float_add_group.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_float_button.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_float_button.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_notify_group.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_notify_group.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_pass_reset.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_pass_reset.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_person_low.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_person_low.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_person_white_24dp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_person_white_24dp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_search.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_search.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_send.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_send.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_shopping_cart_white_24dp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_shopping_cart_white_24dp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_signup.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_signup.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_store_white_24dp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_store_white_24dp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_tab_group.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_tab_group.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_tab_infor.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_tab_infor.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_tab_person.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_tab_person.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/plus_x.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/plus_x.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/rounded_corner1.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/rounded_corner1.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/rounded_corner2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/rounded_corner2.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/rounded_textview.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/rounded_textview.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/scrolling_background.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/scrolling_background.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/scrolling_foreground.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/scrolling_foreground.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/selector_bg_edit.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/selector_bg_edit.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/selector_bg_edit_2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/selector_bg_edit_2.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/state_list_animator_z.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/state_list_animator_z.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/van.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/van.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fg1.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fg1.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fg2.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fg2.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fg3.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fg3.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fg4.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fg4.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fg5.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fg5.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fg6.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fg6.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fg7.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fg7.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fg8.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fg8.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fg9.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/fg9.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_action_name.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_action_name.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_card_giftcard_white_24dp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_card_giftcard_white_24dp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_person_white_24dp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_person_white_24dp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_send.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_send.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_shopping_cart_white_24dp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_shopping_cart_white_24dp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_store_white_24dp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_store_white_24dp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/scrolling_background.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/scrolling_background.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/scrolling_foreground.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/scrolling_foreground.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/van.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/van.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/gradient.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/gradient.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/loginbutton_selector.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/loginbutton_selector.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/mybutton.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/mybutton.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/no_internet_b.gif" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/no_internet_b.gif" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/text_selector.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/text_selector.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fg1.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fg1.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fg2.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fg2.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fg3.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fg3.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fg4.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fg4.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fg5.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fg5.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fg6.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fg6.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fg7.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fg7.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fg8.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fg8.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fg9.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/fg9.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_action_name.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_action_name.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_card_giftcard_white_24dp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_card_giftcard_white_24dp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_person_white_24dp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_person_white_24dp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_send.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_send.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_shopping_cart_white_24dp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_shopping_cart_white_24dp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_store_white_24dp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_store_white_24dp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/scrolling_background.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/scrolling_background.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/scrolling_foreground.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/scrolling_foreground.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/van.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/van.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/bg_container_shadow.9.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/bg_container_shadow.9.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fg1.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fg1.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fg2.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fg2.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fg3.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fg3.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fg4.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fg4.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fg5.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fg5.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fg6.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fg6.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fg7.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fg7.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fg8.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fg8.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fg9.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/fg9.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_action_name.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_action_name.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_card_giftcard_white_24dp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_card_giftcard_white_24dp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_comment_outline_grey.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_comment_outline_grey.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_feed_top.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_feed_top.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_heart_red.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_heart_red.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_heart_small_blue.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_heart_small_blue.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_instagram_white.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_instagram_white.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_person_white_24dp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_person_white_24dp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_send.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_send.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_shopping_cart_white_24dp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_shopping_cart_white_24dp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_store_white_24dp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_store_white_24dp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/img_feed_bottom_1.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/img_feed_bottom_1.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/img_feed_bottom_2.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/img_feed_bottom_2.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/img_feed_center_1.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/img_feed_center_1.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/img_feed_center_2.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/img_feed_center_2.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/img_filter_mock.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/img_filter_mock.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/img_share_mock.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/img_share_mock.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/img_toolbar_logo.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/img_toolbar_logo.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/layer_1.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/layer_1.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/layer_2.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/layer_2.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/layer_3.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/layer_3.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/layer_4.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/layer_4.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/layer_5.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/layer_5.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/layer_6.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/layer_6.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/layer_7.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/layer_7.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/scrolling_background.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/scrolling_background.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/scrolling_foreground.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/scrolling_foreground.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/van.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/van.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_card_giftcard_white_24dp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_card_giftcard_white_24dp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_person_white_24dp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_person_white_24dp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_shopping_cart_white_24dp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_shopping_cart_white_24dp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_store_white_24dp.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_store_white_24dp.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/album1.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/album1.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/album10.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/album10.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/album11.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/album11.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/album2.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/album2.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/album3.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/album3.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/album4.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/album4.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/album5.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/album5.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/album6.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/album6.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/album7.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/album7.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/album8.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/album8.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/album9.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/album9.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_comment_avatar.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_comment_avatar.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_container_shadow.9.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_container_shadow.9.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_like_circle_background.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_like_circle_background.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/block.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/block.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_capture.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_capture.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_capture_options.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_capture_options.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_context_menu.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_context_menu.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_default_light.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_default_light.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_feed_action.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_feed_action.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_following.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_following.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_send_comment.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_send_comment.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/cart.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cart.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/cart_big.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cart_big.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/close.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/close.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/confirm_password.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/confirm_password.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/email.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/email.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/error.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/error.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/google.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/google.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_group_white_24dp.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_group_white_24dp.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_home_black_24dp.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_home_black_24dp.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_notifications_black_24dp.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_notifications_black_24dp.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/img_circle_placeholder.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/img_circle_placeholder.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/location.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/location.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/password.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/password.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ph_add_image.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ph_add_image.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/phone.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/phone.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/room.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/room.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rupee.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rupee.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/shadow_top.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shadow_top.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/switch_publish_direct.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/switch_publish_direct.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/switch_publish_followers.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/switch_publish_followers.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/table_border.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/table_border.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/time.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/time.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/user.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/user.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_group.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_group.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_bottom_navigation.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_bottom_navigation.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/club_tab.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/club_tab.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_club_management.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_club_management.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_comments.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_comments.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_drawer.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_drawer.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login1.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login1.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_no_internet.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_no_internet.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_product_details.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_product_details.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_publish.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_publish.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sell.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sell.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_take_photo.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_take_photo.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_user_profile.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_user_profile.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/add_template.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/add_template.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/album_card.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/album_card.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main_card_view.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main_card_view.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/custom_toast.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_toast.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_edit_username.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_edit_username.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_group.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_group.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_info.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_info.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_menu.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_menu.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_people.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_people.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_store.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_store.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_comment.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_comment.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_feed.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_feed.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_feed_loader.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_feed_loader.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_photo.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_photo.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_photo_filter.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_photo_filter.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_info_item_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_info_item_layout.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/menu_item_view.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/menu_item_view.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/rc_item_add_friend.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/rc_item_add_friend.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/rc_item_friend.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/rc_item_friend.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/rc_item_group.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/rc_item_group.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/rc_item_message_friend.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/rc_item_message_friend.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/rc_item_message_user.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/rc_item_message_user.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/splash_screen.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/splash_screen.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/view_context_menu.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_context_menu.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/view_feed_toolbar.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_feed_toolbar.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/view_global_menu_header.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_global_menu_header.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/view_send_comment_button.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_send_comment_button.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/drawer_menu.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/drawer_menu.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_publish.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_publish.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/navigation.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/navigation.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/nitkart_icon.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/nitkart_icon.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_account_box.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_account_box.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_email.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_email.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_power_settings.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_power_settings.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_restore.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_restore.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/transition/fabtransition.xml" afterPath="$PROJECT_DIR$/app/src/main/res/transition/fabtransition.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimen.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimen.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/android/utabazzar/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/app/src/test/java/com/example/android/utabazzar/ExampleUnitTest.java" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-10-17-43-40-039.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-10-17-43-40-039.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-10-17-45-12-521.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-10-17-45-12-521.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-10-17-56-57-492.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-10-17-56-57-492.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-10-17-59-49-490.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-10-17-59-49-490.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-10-18-17-03-562.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-10-18-17-03-562.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-10-18-20-15-709.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-10-18-20-15-709.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-10-18-24-44-277.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-10-18-24-44-277.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-10-18-25-34-635.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-10-18-25-34-635.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-00-15-49-329.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-00-15-49-329.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-00-58-11-909.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-00-58-11-909.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-01-24-17-069.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-01-24-17-069.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-11-38-52-806.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-11-38-52-806.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-11-39-31-700.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-11-39-31-700.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-12-08-37-564.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-12-08-37-564.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-12-09-37-274.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-12-09-37-274.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-12-57-57-432.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-12-57-57-432.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-13-31-49-650.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-13-31-49-650.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-13-37-21-104.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-13-37-21-104.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-13-47-26-580.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-13-47-26-580.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-13-48-55-569.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-13-48-55-569.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-13-54-12-577.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-13-54-12-577.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-13-54-28-050.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-13-54-28-050.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-13-55-46-585.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-13-55-46-585.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-14-29-54-139.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-14-29-54-139.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-15-04-26-562.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-15-04-26-562.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-15-05-10-310.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-15-05-10-310.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-15-28-43-023.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-15-28-43-023.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-15-35-22-473.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-15-35-22-473.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-15-36-47-790.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-15-36-47-790.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-15-37-39-797.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-15-37-39-797.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-15-38-53-223.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-11-15-38-53-223.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-15-34-27-237.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-15-34-27-237.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-15-36-08-194.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-15-36-08-194.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-15-40-49-861.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-15-40-49-861.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-15-41-44-475.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-15-41-44-475.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-15-45-09-577.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-15-45-09-577.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-17-31-28-548.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-17-31-28-548.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-19-52-09-836.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-19-52-09-836.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-19-56-34-243.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-19-56-34-243.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-20-01-53-158.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-20-01-53-158.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-21-39-17-297.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-21-39-17-297.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-21-42-09-488.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-21-42-09-488.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-21-44-08-069.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-21-44-08-069.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-21-52-03-249.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-21-52-03-249.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-22-05-42-832.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-22-05-42-832.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-22-07-24-333.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-22-07-24-333.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-22-44-33-504.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-22-44-33-504.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-23-26-49-031.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-23-26-49-031.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-23-27-28-726.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-23-27-28-726.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-23-28-24-716.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-23-28-24-716.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-23-29-46-070.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-23-29-46-070.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-23-30-03-705.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-13-23-30-03-705.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-21-07-28-35-690.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-21-07-28-35-690.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-21-07-29-06-795.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-21-07-29-06-795.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-21-07-36-34-543.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-21-07-36-34-543.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-21-08-22-08-712.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-21-08-22-08-712.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-21-08-48-08-901.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-21-08-48-08-901.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-21-09-11-12-794.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-21-09-11-12-794.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-24-03-28-30-486.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-24-03-28-30-486.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-24-03-28-57-633.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-03-24-03-28-57-633.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-14-15-20-03-610.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-04-14-15-20-03-610.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -635,6 +38,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -651,33 +61,21 @@
       <file leaf-file-name="ClubManagement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ClubManagement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="42" column="28" lean-forward="false" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+            <state relative-caret-position="175">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
+      <file leaf-file-name="activity_club_management.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_club_management.xml">
+          <provider selected="true" editor-type-id="android-designer2">
             <state />
           </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-793">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#607#625#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="club_menu.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/club_menu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -2721,6 +2119,19 @@
       </map>
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/Chat_room.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/BottomNavigation.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ChatActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/club_tab.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/club_chat.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_club_management.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
@@ -2755,11 +2166,6 @@
             <path>
               <item name="UTABazzarFrontend" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
-            </path>
-            <path>
-              <item name="UTABazzarFrontend" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
             </path>
             <path>
@@ -2767,6 +2173,17 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="utabazzar" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UTABazzarFrontend" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="UTABazzarFrontend" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
           </expand>
           <select />
@@ -2783,6 +2200,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="3.1.1" />
     <property name="device.picker.selection" value="Nexus_5X_API_P" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.packageName">
+      <recent name="com.example.android.utabazzar" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2974,6 +2396,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="949" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -2982,15 +2405,16 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.502442" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.497558" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3022,18 +2446,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ClubManagement.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/Messaging.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="42" column="28" lean-forward="false" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/club_tab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -3043,18 +2459,114 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-793">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="658">
+          <caret line="78" column="47" lean-forward="false" selection-start-line="78" selection-start-column="47" selection-end-line="78" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/BottomNavigation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="63" column="45" lean-forward="false" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ChatActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="62" column="41" lean-forward="true" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/Chat_room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="36" column="60" lean-forward="true" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/club_chat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
-            <element signature="e#607#625#0" expanded="true" />
+            <element signature="e#2057#2352#0" expanded="false" />
+            <element signature="e#2206#2222#0" expanded="false" />
+            <element signature="e#2351#2352#0" expanded="false" />
+            <element signature="e#3061#3499#0" expanded="false" />
+            <element signature="e#3498#3499#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_club_chat.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/club_tab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="50" column="80" lean-forward="false" selection-start-line="50" selection-start-column="80" selection-end-line="50" selection-end-column="80" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/club_menu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="434">
+          <caret line="39" column="47" lean-forward="false" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/utabazzar/ClubManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login1.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_club_members.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_club_management.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
           <folding />
         </state>
       </provider>

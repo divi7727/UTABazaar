@@ -48,7 +48,8 @@ public class club_tab extends AppCompatActivity {
                 case R.id.navigation_cart:
 //                    fragment = new SellFragment();
 //                    loadFragment(fragment);
-                    Intent intent=new Intent(getApplicationContext(),SellActivity.class);
+                    Intent intent = new Intent(getApplicationContext(),club_chat.class);
+
                     startActivity(intent);
                     finish();
                     return true;
