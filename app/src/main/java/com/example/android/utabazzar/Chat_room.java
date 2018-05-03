@@ -1,7 +1,9 @@
 package com.example.android.utabazzar;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -22,9 +24,9 @@ public class Chat_room extends AppCompatActivity {
     private Button btn_send_msg;
     private EditText input_msg;
     private TextView chat_conversation;
-
-    private String user_name,room_name;
-    private DatabaseReference root ;
+    public ActionBar toolbar;
+    private String user_name,room_name, type;
+    private DatabaseReference root = FirebaseDatabase.getInstance().getReference();
     private String temp_key;
 
     @Override
@@ -38,9 +40,14 @@ public class Chat_room extends AppCompatActivity {
 
         user_name = getIntent().getExtras().get("user_name").toString();
         room_name = getIntent().getExtras().get("room_name").toString();
+        type = getIntent().getExtras().get("type").toString();
         setTitle(" Room - "+room_name);
+        if(type.equals("club")){
+            root = root.child("club_management").child("clubs").child(room_name).child("messages");
+        }else{
+            root = FirebaseDatabase.getInstance().getReference().child(room_name);
+        }
 
-        root = FirebaseDatabase.getInstance().getReference().child(room_name);
 
         btn_send_msg.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -90,6 +97,13 @@ public class Chat_room extends AppCompatActivity {
             }
         });
 
+    }
+    public void onBackPressed() {
+        Intent intent = new Intent(Chat_room.this, club_tab.class);
+        intent.putExtra("CLUB_NAME", room_name);
+        startActivity(intent);
+        finish();
+        toolbar = getSupportActionBar();
     }
 
     private String chat_msg,chat_user_name;

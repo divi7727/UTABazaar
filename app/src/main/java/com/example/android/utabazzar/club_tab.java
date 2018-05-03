@@ -60,7 +60,7 @@ public class club_tab extends AppCompatActivity {
                     return true;
                 case R.id.club_navigation_message:
                     Intent intent = new Intent(getApplicationContext(),club_chat.class);
-
+                    intent.putExtra("CLUB_NAME", thisClubName);
                     startActivity(intent);
                     finish();
                     return true;

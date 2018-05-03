@@ -39,8 +39,8 @@ import java.util.Map;
 public class ClubManagement extends AppCompatActivity {
 
     private String m_Text = "";
-
-
+    public String user_name;
+    public Map <String, Boolean> map;
     SharedPreferences sharedPreferences;
     String myPreferences = "MY_PREFERENCES";
     public ActionBar toolbar;
@@ -51,14 +51,14 @@ public class ClubManagement extends AppCompatActivity {
         setContentView(R.layout.activity_club_management);
 
         sharedPreferences = this.getSharedPreferences(myPreferences, Context.MODE_PRIVATE);
-        final String user_name=sharedPreferences.getString("user_name","Name");
+        user_name=sharedPreferences.getString("user_name","Name");
 
 
         final List<String> clubs_list = new ArrayList<String>();
 
         final List<String> list = new ArrayList<>();
 
-        final Map <String, Boolean> map = new HashMap<String, Boolean>();
+        map = new HashMap<String, Boolean>();
 
         final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>
                 (this, android.R.layout.simple_list_item_1, clubs_list);
@@ -151,6 +151,8 @@ public class ClubManagement extends AppCompatActivity {
                 if(m_Text != "") {
                     clubs_list.add(m_Text);
                     myRef.child("clubs").child(m_Text).setValue(m_Text);
+                    myRef.child("clubs").child(m_Text).child("members").child(user_name).child("name").setValue(user_name);
+                    map.put(m_Text, true);
                     arrayAdapter.notifyDataSetChanged();
                     // Add to preferences here
                 }

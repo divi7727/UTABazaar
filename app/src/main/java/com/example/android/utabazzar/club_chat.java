@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -35,8 +36,8 @@ public class club_chat extends AppCompatActivity {
     private ArrayAdapter<String> arrayAdapter;
     private ArrayList<String> list_of_rooms = new ArrayList<>();
     private String name;
-    private DatabaseReference root = FirebaseDatabase.getInstance().getReference().getRoot();
-
+    private DatabaseReference root = FirebaseDatabase.getInstance().getReference();
+    String thisClubName;
     SharedPreferences sharedPreferences;
     String myPreferences = "MY_PREFERENCES";
     @Override
@@ -53,7 +54,16 @@ public class club_chat extends AppCompatActivity {
         listView.setAdapter(arrayAdapter);
 
         request_user_name();
+        thisClubName = getIntent().getStringExtra("CLUB_NAME");
 
+        root = root.child("club_management").child("clubs").child(thisClubName).child("messages");
+        Intent intent = new Intent(getApplicationContext(),Chat_room.class);
+        intent.putExtra("room_name",thisClubName);
+        intent.putExtra("user_name",name);
+        intent.putExtra("type", "club");
+        startActivity(intent);
+        finish();
+        /*
         add_room.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -97,7 +107,7 @@ public class club_chat extends AppCompatActivity {
                 intent.putExtra("user_name",name);
                 startActivity(intent);
             }
-        });
+        });*/
 
     }
 
