@@ -53,7 +53,7 @@ public class Chat_room extends AppCompatActivity {
             type = "some";
         }
 
-        setTitle(" Room - "+room_name);
+        setTitle(room_name);
         if(type.equals("club")){
             root = root.child("club_management").child("clubs").child(room_name).child("messages");
         }else{

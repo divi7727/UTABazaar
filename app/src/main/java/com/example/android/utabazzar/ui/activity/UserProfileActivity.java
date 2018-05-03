@@ -109,7 +109,7 @@ public class UserProfileActivity extends BaseDrawerActivity implements RevealBac
 
        // pager.setAdapter(adapter);
         //tabs.setupWithViewPager(pager);
-        setupTabs();
+        //setupTabs();
         setupUserProfileGrid();
         setupRevealBackground(savedInstanceState);
         profileSell.setOnClickListener(new View.OnClickListener(){
