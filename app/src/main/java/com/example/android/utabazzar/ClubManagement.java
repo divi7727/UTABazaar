@@ -66,7 +66,7 @@ public class ClubManagement extends AppCompatActivity {
         final Toast t = Toast.makeText(this,"You are not allowed in this club", Toast.LENGTH_SHORT);
 
         // Write a message to the database
-        final FirebaseDatabase database = FirebaseDatabase.getInstance();
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
         final DatabaseReference myRef = database.getReference("club_management");
 
         //Read from database
@@ -77,6 +77,7 @@ public class ClubManagement extends AppCompatActivity {
                     String club_name = ds.getKey();
                     map.put(club_name, false);
                     clubs_list.add(club_name);
+                    System.out.println(club_name);
 
                     for(DataSnapshot member: ds.child("members").getChildren()){
                         if(user_name.equals(member.getKey())){

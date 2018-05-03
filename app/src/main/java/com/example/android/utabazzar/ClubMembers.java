@@ -43,7 +43,7 @@ public class ClubMembers extends AppCompatActivity {
 
         final String thisClubName = getIntent().getStringExtra("CLUB_NAME");
 
-       System.out.println(user_name);
+        System.out.println(user_name);
 
         final List<String> club_member_list = new ArrayList<String>();
 

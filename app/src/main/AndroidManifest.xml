@@ -5,6 +5,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <meta-data
         android:name="android.support.VERSION"
@@ -28,26 +29,27 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.android.utabazzar.ui.LoginActivity"
+            android:name=".ui.LoginActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
-            android:theme="@style/TranslucentBackground">
-        </activity>
+            android:theme="@style/TranslucentBackground" />
         <activity
-            android:name="com.example.android.utabazzar.ui.RegisterActivity"
+            android:name=".ui.RegisterActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
             android:theme="@style/Translucent" />
-
         <activity
-            android:name="com.example.android.utabazzar.ui.ChatActivity"
-            android:screenOrientation="portrait"
-            android:parentActivityName="com.example.android.utabazzar.MainActivity"/>
-        <activity android:name="com.example.android.utabazzar.ui.AddGroupActivity"
-            android:theme="@style/Theme.AppCompat.Transparent"/>
-        <service android:name="com.example.android.utabazzar.service.FriendChatService"
+            android:name=".ui.ChatActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.AddGroupActivity"
+            android:theme="@style/Theme.AppCompat.Transparent" />
+
+        <service
+            android:name=".service.FriendChatService"
             android:exported="false"
-            android:persistent= "true" />
+            android:persistent="true" />
 
         <activity android:name=".MainActivity" />
         <activity android:name=".BottomNavigation" />
@@ -55,7 +57,7 @@
         <activity android:name=".NoInternetActivity" />
         <activity android:name=".ProductDetails" />
         <activity android:name=".Payment" />
-        <activity android:name=".ClubManagement"></activity>
+        <activity android:name=".ClubManagement" />
         <activity
             android:name=".ui.activity.CommentsActivity"
             android:screenOrientation="portrait"
@@ -68,23 +70,23 @@
             android:name=".ui.activity.TakePhotoActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Transparent" />
-        <activity android:name=".Chat_room"/>
-        <activity android:name=".ChatActivity"/>
-        <activity android:name=".ChatActivityView"/>
+        <activity android:name=".Chat_room" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".ChatActivityView" />
         <activity android:name=".club_tab" />
-        <activity android:name=".club_chat"></activity>
-
-
+        <activity android:name=".club_chat" />
         <activity
             android:name=".ui.activity.PublishActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme"
-            android:windowSoftInputMode="stateHidden"/>
+            android:windowSoftInputMode="stateHidden" />
         <activity
             android:name=".ProductDetails1"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme"
-            android:windowSoftInputMode="stateHidden"/>
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".ClubSell" />
+        <activity android:name=".club_adapter"></activity>
     </application>
 
 </manifest>

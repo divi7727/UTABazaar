@@ -14,8 +14,6 @@ public class Album implements Serializable {
     private String seller_room;
     private String time_period;
 
-    public Album() {
-    }
 
     public Album(String product_name, String product_price, String url, String product_id, String seller_name, String seller_phone, String seller_email, String seller_block, String seller_room, String time_period) {
         this.product_name = product_name;
