@@ -14,7 +14,7 @@
 
     <color name="text">#151517</color>
 
-
+    <color name="navColor">#EF6C00</color>
     <color name="colorIndivateTab">#FFFFFF</color>
     <color name="transparent">#00000000</color>
     <color name="colorCardView">#f7f7f7</color>

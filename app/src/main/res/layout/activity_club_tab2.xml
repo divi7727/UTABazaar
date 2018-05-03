@@ -22,7 +22,7 @@
         android:layout_gravity="bottom"
         android:background="?android:attr/windowBackground"
         android:foreground="?attr/selectableItemBackground"
-        app:itemBackground="@color/myAppTheme"
+        app:itemBackground="@color/navColor"
         app:itemIconTint="@android:color/white"
         app:itemTextColor="@android:color/white"
         app:menu="@menu/club_nav" />

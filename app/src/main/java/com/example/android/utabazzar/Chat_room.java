@@ -142,22 +142,16 @@ public class Chat_room extends AppCompatActivity {
 
             chat_msg = (String) ((DataSnapshot)i.next()).getValue();
             chat_user_name = (String) ((DataSnapshot)i.next()).getValue();
-            if(type.equals("club")){
-                time = 0;
-            }else {
-                time = (long)((DataSnapshot)i.next()).getValue();
-            }
+            time = (long)((DataSnapshot)i.next()).getValue();
 
 
             //chat_conversation.append(chat_user_name +" : "+chat_msg +" \n");
             if(user_name.equals(chat_user_name)){
-                co.intentservice.chatui.models.ChatMessage message = new ChatMessage(chat_msg, 0, ChatMessage.Type.SENT);
-                message.setTimestamp(time);
+                co.intentservice.chatui.models.ChatMessage message = new ChatMessage(chat_msg, time, ChatMessage.Type.SENT);
                 chatView.addMessage(message);
 
             }else {
-                co.intentservice.chatui.models.ChatMessage message = new ChatMessage(chat_msg, 0, ChatMessage.Type.RECEIVED);
-                message.setTimestamp(time);
+                co.intentservice.chatui.models.ChatMessage message = new ChatMessage(chat_msg, time, ChatMessage.Type.RECEIVED);
                 chatView.addMessage(message);
             }
         }
