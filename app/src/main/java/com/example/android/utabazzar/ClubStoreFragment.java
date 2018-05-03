@@ -192,7 +192,6 @@ public class ClubStoreFragment extends Fragment {
                     String sellerName = (String) ds.child("sellerName").getValue();
                     String phone = (String) ds.child("sellerPhone").getValue();
                     String email = (String) ds.child("sellerEmail").getValue();
-                    url =  storageReference.child(productKey).getDownloadUrl().toString();
                     storageReference.child(productKey).getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>()
                     {
                         @Override
@@ -209,7 +208,7 @@ public class ClubStoreFragment extends Fragment {
                     seller_name.add(sellerName);
                     seller_phone.add(phone);
                     seller_email.add(email);
-                    //images.add(url);
+                    images.add(url);
                     product_list.add(productKey);
                 }
                 arrayAdapter.notifyDataSetChanged();
