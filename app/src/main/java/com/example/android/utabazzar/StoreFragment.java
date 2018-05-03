@@ -157,7 +157,7 @@ public class StoreFragment extends Fragment {
 
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(
                 Request.Method.GET,
-                MainActivity.domain + "/user/getProducts/",
+                "http://52.90.174.26:8000" + "/user/getProducts/",
                 null,
                 new Response.Listener<JSONArray>() {
                     @Override
@@ -331,7 +331,7 @@ public class StoreFragment extends Fragment {
 
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(
                 Request.Method.GET,
-                MainActivity.domain + "/user/getProducts/",
+                "http://52.90.174.26:8000" + "/user/getProducts/",
                 null,
                 new Response.Listener<JSONArray>() {
                     @Override

@@ -55,7 +55,7 @@ public class ClubSell extends AppCompatActivity implements Imageutils.ImageAttac
     private Bitmap bitmap;
     private String file_name;
     Button submitBtn;
-    String postAdUrl = MainActivity.domain + "/user/postAd/";
+    String postAdUrl = "http://52.90.174.26:8000" + "/user/postAd/";
     Imageutils imageutils;
     public ActionBar toolbar;
     ProgressDialog progressBar;

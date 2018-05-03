@@ -13,7 +13,7 @@ import android.view.animation.OvershootInterpolator;
 import android.widget.ImageView;
 import android.widget.ToggleButton;
 
-import com.example.android.utabazzar.MainActivity;
+import com.example.android.utabazzar.BottomNavigation;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 
@@ -117,7 +117,7 @@ public class PublishActivity extends BaseActivity {
     }
 
     private void bringMainActivityToTop() {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, BottomNavigation.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
         //intent.setAction(MainActivity.ACTION_SHOW_LOADING_ITEM);
         startActivity(intent);

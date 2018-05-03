@@ -45,7 +45,7 @@ public class SellActivity extends AppCompatActivity implements Imageutils.ImageA
     private Bitmap bitmap;
     private String file_name;
     Button submitBtn;
-    String postAdUrl = MainActivity.domain + "/user/postAd/";
+    String postAdUrl = "http://52.90.174.26:8000" + "/user/postAd/";
     Imageutils imageutils;
     public ActionBar toolbar;
     ProgressDialog progressBar;

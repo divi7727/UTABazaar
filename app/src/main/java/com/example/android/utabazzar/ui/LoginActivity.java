@@ -14,7 +14,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.android.utabazzar.MainActivity;
+import com.example.android.utabazzar.BottomNavigation;
 import com.example.android.utabazzar.R;
 import com.example.android.utabazzar.SingletonRequestQueue;
 import com.example.android.utabazzar.data.SharedPreferenceHelper;
@@ -103,8 +103,7 @@ public class LoginActivity extends AppCompatActivity {
                     StaticConfig.UID = user.getUid();
                     Log.d(TAG, "onAuthStateChanged:signed_in:" + user.getUid());
                     if (firstTimeAccess) {
-                        startActivity(new Intent(LoginActivity.this, MainActivity.class));
-                        LoginActivity.this.finish();
+
                     }
                 } else {
                     Log.d(TAG, "onAuthStateChanged:signed_out");
@@ -222,7 +221,7 @@ public class LoginActivity extends AppCompatActivity {
                                 editor.putString(PASSWORD, getPassword);
                                 editor.putString(IS_LOGGED, "1");
                                 editor.commit();
-                                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                                Intent intent = new Intent(LoginActivity.this, BottomNavigation.class);
                                 startActivity(intent);
                                 LoginActivity.this.finish();
                             } else {
@@ -299,7 +298,7 @@ public class LoginActivity extends AppCompatActivity {
                             } else {
                                 initNewUserInfo();
                                 Toast.makeText(LoginActivity.this, "Register and Login success", Toast.LENGTH_SHORT).show();
-                                startActivity(new Intent(LoginActivity.this, MainActivity.class));
+                                startActivity(new Intent(LoginActivity.this, BottomNavigation.class));
                                 LoginActivity.this.finish();
                             }
                         }
@@ -357,7 +356,7 @@ public class LoginActivity extends AppCompatActivity {
                                         .show();
                             } else {
                                 saveUserInfo();
-                                startActivity(new Intent(LoginActivity.this, MainActivity.class));
+                                startActivity(new Intent(LoginActivity.this, BottomNavigation.class));
                                 LoginActivity.this.finish();
                             }
                         }

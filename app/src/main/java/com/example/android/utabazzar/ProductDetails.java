@@ -55,7 +55,7 @@ public class ProductDetails extends AppCompatActivity {
         message = (Button) findViewById(R.id.message);
 
         Album album = (Album) getIntent().getSerializableExtra("Album");
-        Picasso.with(this).load(MainActivity.domain + album.getUrl()).into(imageView);
+        Picasso.with(this).load("http://52.90.174.26:8000" + album.getUrl()).into(imageView);
         producName.setText(album.getProduct_name());
         productPrice.setText(album.getProduct_price());
         productId.setText(album.getProduct_id());
@@ -71,7 +71,7 @@ public class ProductDetails extends AppCompatActivity {
         delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                StringRequest stringRequest = new StringRequest(Request.Method.DELETE, MainActivity.domain + "/user/delete/",
+                StringRequest stringRequest = new StringRequest(Request.Method.DELETE, "http://52.90.174.26:8000" + "/user/delete/",
                         new Response.Listener<String>() {
                             @Override
                             public void onResponse(String response) {

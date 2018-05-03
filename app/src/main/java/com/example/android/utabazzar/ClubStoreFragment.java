@@ -47,9 +47,9 @@ import java.util.List;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link StoreFragment.OnFragmentInteractionListener} interface
+ * {@link ClubStoreFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link StoreFragment#newInstance} factory method to
+ * Use the {@link ClubStoreFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
 public class ClubStoreFragment extends Fragment {
@@ -101,11 +101,11 @@ public class ClubStoreFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment StoreFragment.
+     * @return A new instance of fragment ClubStoreFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static StoreFragment newInstance(String param1, String param2) {
-        StoreFragment fragment = new StoreFragment();
+    public static ClubStoreFragment newInstance(String param1, String param2) {
+        ClubStoreFragment fragment = new ClubStoreFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -195,7 +195,7 @@ public class ClubStoreFragment extends Fragment {
                         public void onSuccess(Uri downloadUrl)
                         {
                              url = downloadUrl.toString();
-                             System.out.println(url);
+                             //System.out.println(url);
                         }
                     });
                     product_name.add(productName);
@@ -240,7 +240,7 @@ public class ClubStoreFragment extends Fragment {
 
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(
                 Request.Method.GET,
-                MainActivity.domain + "/user/getProducts/",
+                "http://52.90.174.26:8000" + "/user/getProducts/",
                 null,
                 new Response.Listener<JSONArray>() {
                     @Override
@@ -268,7 +268,7 @@ public class ClubStoreFragment extends Fragment {
     }
 
     public static String returnUrl(int position){
-
+        System.out.print("in returnUrl: " + images.get(position));
         return images.get(position);
     }
 
@@ -386,7 +386,7 @@ public class ClubStoreFragment extends Fragment {
 
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(
                 Request.Method.GET,
-                MainActivity.domain + "/user/getProducts/",
+                "http://52.90.174.26:8000" + "/user/getProducts/",
                 null,
                 new Response.Listener<JSONArray>() {
                     @Override

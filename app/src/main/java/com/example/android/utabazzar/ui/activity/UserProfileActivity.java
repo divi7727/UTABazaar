@@ -9,7 +9,6 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
-import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.View;
 import android.view.ViewTreeObserver;
@@ -20,11 +19,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.android.utabazzar.BottomNavigation;
-import com.example.android.utabazzar.Login_Fragment;
-import com.example.android.utabazzar.MainActivity;
+import com.example.android.utabazzar.PagerActivity;
 import com.example.android.utabazzar.SellActivity;
 import com.example.android.utabazzar.SplashScreen;
-import com.example.android.utabazzar.ui.LoginActivity;
 import com.squareup.picasso.Picasso;
 
 import butterknife.BindView;
@@ -79,6 +76,12 @@ public class UserProfileActivity extends BaseDrawerActivity implements RevealBac
         sharedPreferences = UserProfileActivity.this.getSharedPreferences(myPreferences, Context.MODE_PRIVATE);
         this.avatarSize = getResources().getDimensionPixelSize(R.dimen.user_profile_avatar_size);
         this.profilePhoto = "https://pbs.twimg.com/profile_images/931643595051950080/4pGLu7Zi_400x400.jpg";
+        ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
+        PagerActivity adapter = new PagerActivity(this, getSupportFragmentManager());
+        viewPager.setAdapter(adapter);
+        // Give the TabLayout the ViewPager
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tlUserProfileTabs);
+        tabLayout.setupWithViewPager(viewPager);
         tvUserName = (TextView) findViewById(R.id.userNameP);
         tvUserEmail = findViewById(R.id.userEmailP);
         tvUserName.setText(sharedPreferences.getString("user_name","Name"));
@@ -106,7 +109,7 @@ public class UserProfileActivity extends BaseDrawerActivity implements RevealBac
 
        // pager.setAdapter(adapter);
         //tabs.setupWithViewPager(pager);
-        setupTabs();
+        //setupTabs();
         setupUserProfileGrid();
         setupRevealBackground(savedInstanceState);
         profileSell.setOnClickListener(new View.OnClickListener(){

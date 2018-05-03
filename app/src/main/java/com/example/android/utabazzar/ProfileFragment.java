@@ -60,10 +60,6 @@ public class ProfileFragment extends Fragment {
     private String mParam2;
 
     private OnFragmentInteractionListener mListener;
-    Button signOut;
-    TextView userName;
-    TextView userEmail;
-    CircleImageView userPhoto;
 
     ArrayList<String> images;
     ArrayList<String> product_name;
@@ -133,25 +129,13 @@ public class ProfileFragment extends Fragment {
         seller_room = new ArrayList<>();
         time_period = new ArrayList<>();
         adapter = new AlbumsAdapter(getContext(), albumList);
-        userName=view.findViewById(R.id.userName);
-        userEmail=view.findViewById(R.id.userEmail);
-        userPhoto=view.findViewById(R.id.profile_image);
 //        userPhoto.setImageDrawable(R);
         String deafultPic="https://www.1pcom.net/img/loginhead.jpg";
         Log.w("PHOTO::::::::::::",sharedPreferences.getString("photo_url","custom"));
 //        userPhoto.setImageURI(Uri.parse(sharedPreferences.getString("photo_url","custom")));
-        Picasso.with(getContext()).load(sharedPreferences.getString("photo_url",deafultPic)).into(userPhoto);
-        userName.setText(sharedPreferences.getString("user_name","Name"));
-        userEmail.setText(sharedPreferences.getString("email_id","email"));
+
 
         // LogOut Button
-        signOut = view.findViewById(R.id.signOut);
-        signOut.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                signOut();
-            }
-        });
 
         // User's Ads
         RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(getContext(), 2);
@@ -160,7 +144,7 @@ public class ProfileFragment extends Fragment {
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(adapter);
 
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, MainActivity.domain + "/user/getProducts/",
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, "http://52.90.174.26:8000" + "/user/getProducts/",
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
@@ -321,7 +305,7 @@ public class ProfileFragment extends Fragment {
 //        SharedPreferences.Editor editor = sharedPreferences.edit();
 //        editor.putString("IS_LOGGED", "0");
 //        editor.apply();
-        Login_Fragment.mGoogleSignInClient.signOut();
+
         Intent intent = new Intent(getActivity(), LoginActivity.class);
         startActivity(intent);
         getActivity().finish();

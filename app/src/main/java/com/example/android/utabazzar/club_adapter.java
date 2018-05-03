@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -54,11 +55,12 @@ public class club_adapter extends RecyclerView.Adapter<club_adapter.MyViewHolder
     public void onBindViewHolder(final MyViewHolder holder, int position) {
         final Album album = albumList.get(position);
         //String url = album.getUrl();
-        String url ="https://firebasestorage.googleapis.com/v0/b/chatapp-f6a0c.appspot.com/o/images%2F-LBZNkffa3K2b4NjVFGN?alt=media&token=f35ed0ea-efae-4cd1-bde6-9401f7077a33";
 
-        //System.out.println(url);
+        String url =ClubStoreFragment.returnUrl(position);
+
+        System.out.println("hello"+url);
         //Log.v("This is the URL:", url);
-        Picasso.with(mContext).load(ClubStoreFragment.returnUrl(position)).into(thumbnail);
+        Picasso.with(mContext).load(url).into(thumbnail);
         nameView.setText(album.getProduct_name());
         priceView.setText(album.getProduct_price());
 

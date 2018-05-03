@@ -15,6 +15,10 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.example.android.utabazzar.customfonts.MyTextView;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.squareup.picasso.Picasso;
 
 public class ProductDetails1 extends AppCompatActivity {
@@ -34,8 +38,11 @@ public class ProductDetails1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.product_details_final);
-
+        MobileAds.initialize(this, "ca-app-pub-1934170678397804~9054093363");
         sharedPreferences = ProductDetails1.this.getSharedPreferences(myPreferences, Context.MODE_PRIVATE);
+        AdView adView = new AdView(this);
+        adView.setAdSize(AdSize.BANNER);
+        adView.setAdUnitId("ca-app-pub-1934170678397804/2059987756");
         imageView = (ImageView) findViewById(R.id.product_pic);
         producName = (TextView) findViewById(R.id.product_name1);
         productPrice = (TextView) findViewById(R.id.product_price1);
@@ -51,9 +58,12 @@ public class ProductDetails1 extends AppCompatActivity {
 
         buynowButton = (MyTextView) findViewById(R.id.buyNowV);
         message = (Button) findViewById(R.id.message);
+        adView = findViewById(R.id.adView1);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
 
         Album album = (Album) getIntent().getSerializableExtra("Album");
-        Picasso.with(this).load(MainActivity.domain + album.getUrl()).into(imageView);
+        Picasso.with(this).load("http://52.90.174.26:8000" + album.getUrl()).into(imageView);
         producName.setText(album.getProduct_name());
         productPrice.setText("$"+album.getProduct_price());
         seller_name.setText(album.getSeller_name());

@@ -28,13 +28,10 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.example.android.utabazzar.BottomNavigation;
 import com.example.android.utabazzar.CustomToast;
-import com.example.android.utabazzar.MainActivity;
 import com.example.android.utabazzar.R;
 import com.example.android.utabazzar.SingletonRequestQueue;
 import com.example.android.utabazzar.Utils;
-import com.example.android.utabazzar.data.StaticConfig;
 
-import java.math.BigInteger;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
@@ -57,7 +54,8 @@ public class RegisterActivity extends AppCompatActivity {
     private static TextView login;
     private static Button signUpButton;
     private static CheckBox terms_conditions;
-    String domain = MainActivity.domain;
+
+    String domain = "http://52.90.174.26:8000";
     String loginUrl = domain + "/user/login/";
     String registerUrl = domain + "/user/register/";
     String testUrl = domain + "/user";

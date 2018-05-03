@@ -8,6 +8,11 @@
 
 
 
+    <string name="category_usefulinfo">My Ads</string>
+
+    <!-- Category name for places [CHAR LIMIT=20] -->
+    <string name="category_places">Settings</string>
+
 
     <string name="about">About</string>
     <string name="login_success">login success</string>
