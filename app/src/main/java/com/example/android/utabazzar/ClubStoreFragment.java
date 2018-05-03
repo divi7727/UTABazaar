@@ -5,6 +5,7 @@ import android.content.res.Resources;
 import android.graphics.Rect;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.DefaultItemAnimator;
@@ -14,6 +15,7 @@ import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -21,6 +23,18 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -28,8 +42,6 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import ss.com.bannerslider.Slider;
 
 
 /**
@@ -40,12 +52,12 @@ import ss.com.bannerslider.Slider;
  * Use the {@link StoreFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class StoreFragment extends Fragment {
+public class ClubStoreFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
-    private Slider slider;
+
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
@@ -55,22 +67,31 @@ public class StoreFragment extends Fragment {
 
     Context context;
     private RecyclerView recyclerView;
-    private AlbumsAdapter adapter;
+    private club_adapter adapter;
     private List<Album> albumList;
-    ArrayList<String> images;
+    public static ArrayList<String> images;
     ArrayList<String> product_name;
     ArrayList<String> product_price;
-    ArrayList<String> product_id;
+    ArrayList<String> product_key;
     ArrayList<String> seller_name;
     ArrayList<String> seller_phone;
     ArrayList<String> seller_email;
-    ArrayList<String> seller_block;
-    ArrayList<String> seller_room;
-    ArrayList<String> time_period;
 
     SwipeRefreshLayout swipeRefreshLayout;
 
-    public StoreFragment() {
+    FirebaseDatabase database;
+    DatabaseReference myRef;
+    FirebaseStorage storage;
+    StorageReference storageReference;
+
+    FirebaseAuth mAuth;
+
+    FirebaseUser user;
+
+    String thisClubName;
+    public static String url;
+
+    public ClubStoreFragment() {
         // Required empty public constructor
     }
 
@@ -95,42 +116,45 @@ public class StoreFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Bundle bundle = this.getArguments();
+        if (bundle != null) {
+            thisClubName = bundle.getString("CLUB_NAME", "Club name");
+        }
+        database = FirebaseDatabase.getInstance();
+        myRef = database.getReference("club_management").child("clubs").child(thisClubName).child("products");
+
+        storage = FirebaseStorage.getInstance();
+        storageReference = storage.getReference().child("/images");
+
+        mAuth = FirebaseAuth.getInstance();
+
+        user = mAuth.getCurrentUser();
+
+        if (user != null) {
+            // do your stuff
+        } else {
+            signInAnonymously();
+        }
+
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
-        Slider.init(new PicassoImageLoadingService(getActivity()));
-    }
-    private void setupViews() {
-        //setupPageIndicatorChooser();
-        //setupSettingsUi();
-        //delay for testing empty view functionality
-        slider.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                slider.setAdapter(new MainSliderAdapter());
-                slider.setSelectedSlide(0);
-            }
-        }, 1500);
 
-    }
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+        final List<String> product_list = new ArrayList<String>();
+
+        final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>
+                (getContext(), android.R.layout.simple_list_item_1, product_list);
+
         // Inflate the layout for this fragment
         context = getContext();
 
-        View view = inflater.inflate(R.layout.fragment_store, container, false);
+        LayoutInflater inflater = getLayoutInflater();
+        ViewGroup container = (ViewGroup)getView();
+
+        View view = inflater.inflate(R.layout.fragment_club_store, container, false);
         recyclerView = view.findViewById(R.id.recycler_view);
         swipeRefreshLayout = view.findViewById(R.id.swipeRefresh);
-        slider = view.findViewById(R.id.banner_slider1);
-        slider.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                slider.setAdapter(new MainSliderAdapter());
-                slider.setSelectedSlide(0);
-            }
-        }, 1500);
         swipeRefreshLayout.setColorScheme(android.R.color.holo_green_light,
                 android.R.color.holo_orange_light,
                 android.R.color.holo_red_light);
@@ -139,14 +163,73 @@ public class StoreFragment extends Fragment {
         images = new ArrayList<>();
         product_name = new ArrayList<>();
         product_price = new ArrayList<>();
-        product_id = new ArrayList<>();
+        product_key = new ArrayList<>();
         seller_name = new ArrayList<>();
         seller_phone = new ArrayList<>();
         seller_email = new ArrayList<>();
-        seller_block = new ArrayList<>();
-        seller_room = new ArrayList<>();
-        time_period = new ArrayList<>();
-        adapter = new AlbumsAdapter(getContext(), albumList);
+        adapter = new club_adapter(getContext(), albumList);
+
+//        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
+        RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(getContext(), 2);
+        recyclerView.setLayoutManager(mLayoutManager);
+        recyclerView.addItemDecoration(new GridSpacingItemDecoration(2, dpToPx(10), true));
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
+        recyclerView.setAdapter(adapter);
+
+        //Read from database
+        ValueEventListener eventListener = new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+
+                for(DataSnapshot ds : dataSnapshot.getChildren()) {
+                    final String productKey = ds.getKey();
+                    String productName = (String) ds.child("productName").getValue();
+                    String price = (String) ds.child("productPrice").getValue();
+                    String sellerName = (String) ds.child("sellerName").getValue();
+                    String phone = (String) ds.child("sellerPhone").getValue();
+                    String email = (String) ds.child("sellerEmail").getValue();
+
+                    storageReference.child(productKey).getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>()
+                    {
+                        @Override
+                        public void onSuccess(Uri downloadUrl)
+                        {
+                             url = downloadUrl.toString();
+                             System.out.println(url);
+                        }
+                    });
+                    product_name.add(productName);
+                    product_price.add(price);
+                    product_key.add(productKey);
+                    seller_name.add(sellerName);
+                    seller_phone.add(phone);
+                    seller_email.add(email);
+                    images.add(url);
+                    product_list.add(productKey);
+                }
+                arrayAdapter.notifyDataSetChanged();
+                prepareAlbums();
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {}
+        };
+        myRef.addListenerForSingleValueEvent(eventListener);
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        context = getContext();
+
+        View view = inflater.inflate(R.layout.fragment_club_store, container, false);
+        recyclerView = view.findViewById(R.id.recycler_view);
+        swipeRefreshLayout = view.findViewById(R.id.swipeRefresh);
+        swipeRefreshLayout.setColorScheme(android.R.color.holo_green_light,
+                android.R.color.holo_orange_light,
+                android.R.color.holo_red_light);
 
 //        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(getContext(), 2);
@@ -162,37 +245,7 @@ public class StoreFragment extends Fragment {
                 new Response.Listener<JSONArray>() {
                     @Override
                     public void onResponse(JSONArray response) {
-                        try {
-                            // Loop through the array elements
-                            for (int i = 0; i < response.length(); i++) {
-                                // Get current json object
-                                JSONObject product = response.getJSONObject(i);
-                                String url = product.getString("image");
-                                String name = product.getString("product_name");
-                                String price = product.getString("product_price");
-                                String id = product.getString("id");
-                                String s_name = product.getString("seller_name");
-                                String phone = product.getString("seller_phone");
-                                String email = product.getString("seller_email");
-                                String block = product.getString("seller_block");
-                                String room = product.getString("seller_room");
-                                String time = product.getString("time_period");
-                                images.add(url);
-                                product_name.add(name);
-                                product_price.add(price);
-                                product_id.add(id);
-                                seller_name.add(s_name);
-                                seller_phone.add(phone);
-                                seller_email.add(email);
-                                seller_block.add(block);
-                                seller_room.add(room);
-                                time_period.add(time);
-                            }
-                            prepareAlbums();
-//                            Toast.makeText(context, response.toString(), Toast.LENGTH_LONG).show();
-                        } catch (JSONException e) {
-                            e.printStackTrace();
-                        }
+                        //prepareAlbums();
                     }
                 },
                 new Response.ErrorListener() {
@@ -212,6 +265,11 @@ public class StoreFragment extends Fragment {
             }
         });
         return view;
+    }
+
+    public static String returnUrl(int position){
+
+        return images.get(position);
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -255,7 +313,7 @@ public class StoreFragment extends Fragment {
      */
     private void prepareAlbums() {
         for (int i = 0; i < images.size(); i++) {
-            Album a = new Album(product_name.get(i), product_price.get(i), images.get(i), product_id.get(i), seller_name.get(i), seller_phone.get(i), seller_email.get(i), seller_block.get(i), seller_room.get(i), time_period.get(i));
+            Album a = new Album(product_name.get(i), product_price.get(i), images.get(i), product_key.get(i), seller_name.get(i), seller_phone.get(i), seller_email.get(i), "","","");
             albumList.add(a);
         }
         adapter.notifyDataSetChanged();
@@ -314,14 +372,11 @@ public class StoreFragment extends Fragment {
         images = new ArrayList<>();
         product_name = new ArrayList<>();
         product_price = new ArrayList<>();
-        product_id = new ArrayList<>();
+        product_key = new ArrayList<>();
         seller_name = new ArrayList<>();
         seller_phone = new ArrayList<>();
         seller_email = new ArrayList<>();
-        seller_block = new ArrayList<>();
-        seller_room = new ArrayList<>();
-        time_period = new ArrayList<>();
-        adapter = new AlbumsAdapter(getContext(), albumList);
+        adapter = new club_adapter(getContext(), albumList);
 
 //        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(getContext(), 2);
@@ -351,16 +406,13 @@ public class StoreFragment extends Fragment {
                                 String block = product.getString("seller_block");
                                 String room = product.getString("seller_room");
                                 String time = product.getString("time_period");
-                                images.add(url);
+                                //images.add(url);
                                 product_name.add(name);
                                 product_price.add(price);
-                                product_id.add(id);
+                                product_key.add(id);
                                 seller_name.add(s_name);
                                 seller_phone.add(phone);
                                 seller_email.add(email);
-                                seller_block.add(block);
-                                seller_room.add(room);
-                                time_period.add(time);
                             }
                             prepareAlbums();
 //                            Toast.makeText(context, response.toString(), Toast.LENGTH_LONG).show();
@@ -381,6 +433,21 @@ public class StoreFragment extends Fragment {
                 }
         );
         SingletonRequestQueue.getInstance(context).addToRequestQueue(jsonArrayRequest);
+    }
+
+    private void signInAnonymously() {
+        mAuth.signInAnonymously().addOnSuccessListener( new OnSuccessListener<AuthResult>() {
+            @Override
+            public void onSuccess(AuthResult authResult) {
+                // do your stuff
+            }
+        })
+                .addOnFailureListener( new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception exception) {
+                        //Log.e(TAG, "signInAnonymously:FAILURE", exception);
+                    }
+                });
     }
 
 

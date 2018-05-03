@@ -1,6 +1,8 @@
 package com.example.android.utabazzar;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.content.Intent;
@@ -12,14 +14,18 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import com.example.android.utabazzar.customfonts.MyTextView;
 import com.squareup.picasso.Picasso;
 
 public class ProductDetails1 extends AppCompatActivity {
     Spinner spinner1, spinner2, spinner3;
-    Button delete, message, addtobag;
+    Button delete, message;
+    SharedPreferences sharedPreferences;
+    String myPreferences = "MY_PREFERENCES";
     ImageView imageView;
     TextView producName, productPrice, productId, seller_name, seller_phone, seller_email, seller_block, seller_room, time_period;
     String prod_id;
+    com.example.android.utabazzar.customfonts.MyTextView buynowButton;
     public static String seller_email_stat, product_name_stat, seller_utaid_stat;
 
     public static String productPriceUsd;
@@ -29,7 +35,7 @@ public class ProductDetails1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.product_details_final);
 
-
+        sharedPreferences = ProductDetails1.this.getSharedPreferences(myPreferences, Context.MODE_PRIVATE);
         imageView = (ImageView) findViewById(R.id.product_pic);
         producName = (TextView) findViewById(R.id.product_name1);
         productPrice = (TextView) findViewById(R.id.product_price1);
@@ -42,8 +48,8 @@ public class ProductDetails1 extends AppCompatActivity {
 
         delete = (Button) findViewById(R.id.delete);
 
-        addtobag = (Button) findViewById(R.id.addtobag);
 
+        buynowButton = (MyTextView) findViewById(R.id.buyNowV);
         message = (Button) findViewById(R.id.message);
 
         Album album = (Album) getIntent().getSerializableExtra("Album");
@@ -58,24 +64,27 @@ public class ProductDetails1 extends AppCompatActivity {
         FloatingActionButton myFab = (FloatingActionButton) findViewById(R.id.messageSeller);
         myFab.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent2= new Intent(getApplicationContext(),ChatActivity.class);
+                Intent intent = new Intent(getApplicationContext(),Chat_room.class);
+                intent.putExtra("room_name",ProductDetails1.product_name_stat+"@"+ProductDetails1.seller_utaid_stat+"@"+sharedPreferences.getString("user_name","Name"));
+                intent.putExtra("user_name",sharedPreferences.getString("email_id","Email"));
+                startActivity(intent);
+                /*Intent intent2= new Intent(getApplicationContext(),ChatActivity.class);
                 startActivity(intent2);
-                finish();
+                finish();*/
             }
         });
         productPriceUsd = album.getProduct_price();
         //productId.setText(album.getProduct_id());
         //seller_phone.setText(album.getSeller_phone());
         //seller_email.setText(album.getSeller_email());
-
-
-        addtobag.setOnClickListener(new View.OnClickListener() {
+        buynowButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 finish();
                 Intent intent = new Intent(ProductDetails1.this, Payment.class);
                 startActivity(intent);
             }
-            });
+
+        });
     }
 }

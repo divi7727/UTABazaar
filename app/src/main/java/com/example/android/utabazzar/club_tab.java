@@ -17,10 +17,12 @@ import android.widget.Toast;
 public class club_tab extends AppCompatActivity {
     public ActionBar toolbar;
     boolean doubleBackToExitPressedOnce = false;
+    public String thisClubName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        thisClubName = getIntent().getStringExtra("CLUB_NAME");
         setContentView(R.layout.activity_club_tab2);
 
         toolbar = getSupportActionBar();
@@ -29,7 +31,11 @@ public class club_tab extends AppCompatActivity {
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
         toolbar.setTitle("Club Store");
-        loadFragment(new StoreFragment());
+        Bundle bundle = new Bundle();
+        bundle.putString("CLUB_NAME", thisClubName);
+        ClubStoreFragment fragment = new ClubStoreFragment();
+        fragment.setArguments(bundle);
+        loadFragment(fragment);
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -40,12 +46,17 @@ public class club_tab extends AppCompatActivity {
             switch (item.getItemId()) {
                 case R.id.navigation_shop:
                     toolbar.setTitle("Club Store");
-                    loadFragment(new StoreFragment());
+                    Bundle bundle = new Bundle();
+                    bundle.putString("CLUB_NAME", thisClubName);
+                    ClubStoreFragment fragment = new ClubStoreFragment();
+                    fragment.setArguments(bundle);
+                    loadFragment(fragment);
                     return true;
                 case R.id.navigation_cart:
-//                    fragment = new SellFragment();
-//                    loadFragment(fragment);
-
+                    Intent club_sell = new Intent(getApplicationContext(),ClubSell.class);
+                    club_sell.putExtra("CLUB_NAME", thisClubName);
+                    startActivity(club_sell);
+                    finish();
                     return true;
                 case R.id.club_navigation_message:
                     Intent intent = new Intent(getApplicationContext(),club_chat.class);

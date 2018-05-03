@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
@@ -53,16 +54,15 @@ public class UserProfileActivity extends BaseDrawerActivity implements RevealBac
     View vUserDetails;
     @BindView(R.id.btnFollow)
     Button btnFollow;
-    @BindView(R.id.vUserStats)
-    View vUserStats;
     @BindView(R.id.vUserProfileRoot)
     View vUserProfileRoot;
-
+    String currActivity;
     private int avatarSize;
     private String profilePhoto;
     private UserProfileAdapter userPhotosAdapter;
     TextView tvUserName;
     TextView tvUserEmail;
+    FloatingActionButton profileSell;
     public static void startUserProfileFromLocation(int[] startingLocation, Activity startingActivity) {
         Intent intent = new Intent(startingActivity, UserProfileActivity.class);
         intent.putExtra(ARG_REVEAL_START_LOCATION, startingLocation);
@@ -80,7 +80,7 @@ public class UserProfileActivity extends BaseDrawerActivity implements RevealBac
         tvUserEmail = findViewById(R.id.userEmailP);
         tvUserName.setText(sharedPreferences.getString("user_name","Name"));
         tvUserEmail.setText(sharedPreferences.getString("email_id","Email"));
-
+        profileSell = (FloatingActionButton) findViewById(R.id.btnCreate);
         Picasso.with(this)
                 .load(profilePhoto)
                 .placeholder(R.drawable.img_circle_placeholder)
@@ -99,6 +99,16 @@ public class UserProfileActivity extends BaseDrawerActivity implements RevealBac
         setupTabs();
         setupUserProfileGrid();
         setupRevealBackground(savedInstanceState);
+        profileSell.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                currActivity = "UserProfileActivity";
+                Intent intent = new Intent(UserProfileActivity.this, SellActivity.class);
+                startActivity(intent);
+                finish();
+
+            }
+        });
     }
     public void onBackPressed() {
         Intent intent = new Intent(UserProfileActivity.this, BottomNavigation.class);
@@ -160,11 +170,10 @@ public class UserProfileActivity extends BaseDrawerActivity implements RevealBac
            vUserProfileRoot.setTranslationY(-vUserProfileRoot.getHeight());
            ivUserProfilePhoto.setTranslationY(-ivUserProfilePhoto.getHeight());
            vUserDetails.setTranslationY(-vUserDetails.getHeight());
-           vUserStats.setAlpha(0);
+
 
            vUserProfileRoot.animate().translationY(0).setDuration(300).setInterpolator(INTERPOLATOR);
            ivUserProfilePhoto.animate().translationY(0).setDuration(300).setStartDelay(100).setInterpolator(INTERPOLATOR);
            vUserDetails.animate().translationY(0).setDuration(300).setStartDelay(200).setInterpolator(INTERPOLATOR);
-           vUserStats.animate().alpha(1).setDuration(200).setStartDelay(400).setInterpolator(INTERPOLATOR).start();
     }
 }

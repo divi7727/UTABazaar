@@ -60,10 +60,7 @@
             android:name=".ui.activity.CommentsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Transparent" />
-        <activity
-            android:name=".ui.activity.UserProfileActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Transparent" />
+        <activity android:name=".ui.activity.UserProfileActivity" />
         <activity
             android:name=".ui.activity.TakePhotoActivity"
             android:screenOrientation="portrait"
@@ -73,6 +70,9 @@
         <activity android:name=".ChatActivityView"/>
         <activity android:name=".club_tab" />
         <activity android:name=".club_chat"></activity>
+        <activity android:name=".club_adapter"></activity>
+        <activity android:name=".ClubSell" />
+
 
 
         <activity
@@ -85,6 +85,7 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme"
             android:windowSoftInputMode="stateHidden"/>
+
     </application>
 
 </manifest>

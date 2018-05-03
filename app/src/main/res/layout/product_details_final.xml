@@ -72,12 +72,6 @@
             android:layout_marginTop="16dp"
             />
 
-        <Button
-            android:id="@+id/addtobag"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Buy now" />
-
         <com.example.android.utabazzar.customfonts.MyTextView
             android:id="@+id/sold_by"
             android:layout_width="wrap_content"
@@ -109,6 +103,8 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
+            android:onClick="onClick"
+            android:clickable="true"
             />
 
         <LinearLayout
@@ -121,6 +117,7 @@
             android:layout_marginLeft="16dp">
 
             <com.example.android.utabazzar.customfonts.MyTextView
+                android:id="@+id/buyNowV"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
