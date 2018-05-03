@@ -56,6 +56,7 @@
         <activity android:name=".ProductDetails" />
         <activity android:name=".Payment" />
         <activity android:name=".ClubManagement"></activity>
+        <activity android:name=".ClubMembers"></activity>
         <activity
             android:name=".ui.activity.CommentsActivity"
             android:screenOrientation="portrait"

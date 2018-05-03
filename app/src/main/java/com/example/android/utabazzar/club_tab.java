@@ -7,18 +7,20 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 public class club_tab extends AppCompatActivity {
     public ActionBar toolbar;
     boolean doubleBackToExitPressedOnce = false;
     public String thisClubName;
-
+    FloatingActionButton addMember;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,13 +31,21 @@ public class club_tab extends AppCompatActivity {
 
         BottomNavigationView navigation = findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-
+        addMember = findViewById(R.id.addMem);
         toolbar.setTitle("Club Store");
         Bundle bundle = new Bundle();
         bundle.putString("CLUB_NAME", thisClubName);
         ClubStoreFragment fragment = new ClubStoreFragment();
         fragment.setArguments(bundle);
         loadFragment(fragment);
+        addMember.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(club_tab.this, ClubMembers.class);
+                intent.putExtra("CLUB_NAME", thisClubName);
+                startActivity(intent);
+            }
+        });
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
