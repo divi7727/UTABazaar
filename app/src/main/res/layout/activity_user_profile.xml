@@ -85,7 +85,7 @@
                                 android:textSize="12sp" />
 
                             <Button
-                                android:id="@+id/btnFollow"
+                                android:id="@+id/btnLogout"
                                 android:layout_width="match_parent"
                                 android:layout_height="24dp"
                                 android:layout_marginRight="24dp"

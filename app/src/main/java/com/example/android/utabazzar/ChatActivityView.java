@@ -108,6 +108,7 @@ public class ChatActivityView extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(),Chat_room.class);
                 intent.putExtra("room_name",((TextView)view).getText().toString()+"@"+utaID);
                 intent.putExtra("user_name",name);
+                intent.putExtra("type","some");
                 startActivity(intent);
             }
         });

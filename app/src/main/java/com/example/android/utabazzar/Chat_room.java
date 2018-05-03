@@ -40,7 +40,12 @@ public class Chat_room extends AppCompatActivity {
 
         user_name = getIntent().getExtras().get("user_name").toString();
         room_name = getIntent().getExtras().get("room_name").toString();
-        type = getIntent().getExtras().get("type").toString();
+        try{
+            type = getIntent().getExtras().get("type").toString();
+        }catch (Exception e){
+            type = "some";
+        }
+
         setTitle(" Room - "+room_name);
         if(type.equals("club")){
             root = root.child("club_management").child("clubs").child(room_name).child("messages");
@@ -99,11 +104,20 @@ public class Chat_room extends AppCompatActivity {
 
     }
     public void onBackPressed() {
-        Intent intent = new Intent(Chat_room.this, club_tab.class);
-        intent.putExtra("CLUB_NAME", room_name);
-        startActivity(intent);
-        finish();
-        toolbar = getSupportActionBar();
+        if(type.equals("club")) {
+            Intent intent = new Intent(Chat_room.this, club_tab.class);
+            intent.putExtra("CLUB_NAME", room_name);
+            startActivity(intent);
+            finish();
+            toolbar = getSupportActionBar();
+        }
+        else {
+            Intent intent = new Intent(Chat_room.this, BottomNavigation.class);
+            intent.putExtra("CLUB_NAME", room_name);
+            startActivity(intent);
+            finish();
+            toolbar = getSupportActionBar();
+        }
     }
 
     private String chat_msg,chat_user_name;

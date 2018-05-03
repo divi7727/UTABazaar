@@ -20,8 +20,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.android.utabazzar.BottomNavigation;
+import com.example.android.utabazzar.Login_Fragment;
 import com.example.android.utabazzar.MainActivity;
 import com.example.android.utabazzar.SellActivity;
+import com.example.android.utabazzar.SplashScreen;
+import com.example.android.utabazzar.ui.LoginActivity;
 import com.squareup.picasso.Picasso;
 
 import butterknife.BindView;
@@ -52,8 +55,8 @@ public class UserProfileActivity extends BaseDrawerActivity implements RevealBac
     ImageView ivUserProfilePhoto;
     @BindView(R.id.vUserDetails)
     View vUserDetails;
-    @BindView(R.id.btnFollow)
-    Button btnFollow;
+    @BindView(R.id.btnLogout)
+    Button logout;
     @BindView(R.id.vUserProfileRoot)
     View vUserProfileRoot;
     String currActivity;
@@ -81,6 +84,13 @@ public class UserProfileActivity extends BaseDrawerActivity implements RevealBac
         tvUserName.setText(sharedPreferences.getString("user_name","Name"));
         tvUserEmail.setText(sharedPreferences.getString("email_id","Email"));
         profileSell = (FloatingActionButton) findViewById(R.id.btnCreate);
+        logout = (Button) findViewById(R.id.btnLogout);
+        logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                signOut();
+            }
+        });
         Picasso.with(this)
                 .load(profilePhoto)
                 .placeholder(R.drawable.img_circle_placeholder)
@@ -175,5 +185,18 @@ public class UserProfileActivity extends BaseDrawerActivity implements RevealBac
            vUserProfileRoot.animate().translationY(0).setDuration(300).setInterpolator(INTERPOLATOR);
            ivUserProfilePhoto.animate().translationY(0).setDuration(300).setStartDelay(100).setInterpolator(INTERPOLATOR);
            vUserDetails.animate().translationY(0).setDuration(300).setStartDelay(200).setInterpolator(INTERPOLATOR);
+    }
+
+    private void signOut() {
+        SharedPreferences.Editor e = sharedPreferences.edit();
+        e.clear();
+        e.apply();
+//        SharedPreferences.Editor editor = sharedPreferences.edit();
+//        editor.putString("IS_LOGGED", "0");
+//        editor.apply();
+        //Login_Fragment.mGoogleSignInClient.signOut();
+        Intent intent = new Intent(this, SplashScreen.class);
+        startActivity(intent);
+        finish();
     }
 }

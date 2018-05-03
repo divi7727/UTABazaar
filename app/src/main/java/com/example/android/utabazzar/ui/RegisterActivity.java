@@ -34,8 +34,10 @@ import com.example.android.utabazzar.SingletonRequestQueue;
 import com.example.android.utabazzar.Utils;
 import com.example.android.utabazzar.data.StaticConfig;
 
+import java.math.BigInteger;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -170,10 +172,10 @@ public class RegisterActivity extends AppCompatActivity {
         String getFullName = fullName.getText().toString();
         final String getPassword = editTextPassword.getText().toString();
         final String getUserName = getEditTextUtaID.getText().toString();
-
-
+        Random rand = new Random();
+        String phone = String.valueOf(rand.nextInt(1000000000)+1);
         // Get all edit text texts
-        final String getMobileNumber = "0";
+        final String getMobileNumber = phone;
         String getLocation = "0";
         String getConfirmPassword = "0";
 
