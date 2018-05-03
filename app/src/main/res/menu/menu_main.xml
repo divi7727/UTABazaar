@@ -5,7 +5,5 @@
     tools:context=".MainActivity">
     <item
         android:id="@+id/action_inbox"
-        android:icon="@drawable/ic_inbox_white"
-        android:title="Inbox"
-        app:showAsAction="always" />
+        app:showAsAction="never" />
 </menu>

@@ -1,6 +1,7 @@
 package com.example.android.utabazzar;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.graphics.Rect;
 import android.net.Uri;
@@ -57,7 +58,9 @@ public class ClubStoreFragment extends Fragment {
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
-
+    SharedPreferences sharedPreferences;
+    String myPreferences = "MY_PREFERENCES";
+    String emailId = "email_id";
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
@@ -117,6 +120,7 @@ public class ClubStoreFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Bundle bundle = this.getArguments();
+        sharedPreferences = getActivity().getSharedPreferences(myPreferences, Context.MODE_PRIVATE);
         if (bundle != null) {
             thisClubName = bundle.getString("CLUB_NAME", "Club name");
         }
@@ -188,13 +192,14 @@ public class ClubStoreFragment extends Fragment {
                     String sellerName = (String) ds.child("sellerName").getValue();
                     String phone = (String) ds.child("sellerPhone").getValue();
                     String email = (String) ds.child("sellerEmail").getValue();
-
+                    url =  storageReference.child(productKey).getDownloadUrl().toString();
                     storageReference.child(productKey).getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>()
                     {
                         @Override
                         public void onSuccess(Uri downloadUrl)
                         {
                              url = downloadUrl.toString();
+
                              //System.out.println(url);
                         }
                     });
@@ -204,7 +209,7 @@ public class ClubStoreFragment extends Fragment {
                     seller_name.add(sellerName);
                     seller_phone.add(phone);
                     seller_email.add(email);
-                    images.add(url);
+                    //images.add(url);
                     product_list.add(productKey);
                 }
                 arrayAdapter.notifyDataSetChanged();
