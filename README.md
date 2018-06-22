@@ -1,5 +1,5 @@
 # UTABAZZAR
-University Bazzar is a collaborative effort by Team 8. The App is aimed to help and encourage UTA Students and Staff to buy/sell different products from one another. The Lightweight app will be available on Android Platform.
+University Bazzar is a collaborative effort by #Team Members. The App is aimed to help and encourage Univversity Students and Staff to buy/sell different products from one another. The Lightweight app will be available on Android Platform.
 
 ## Installation
 
@@ -10,7 +10,7 @@ To start server: `python manage.py runserver [hostname:portNo]`
 
 
 ## Team Members
-* [Devi Prasad Tripathy](https://github.com/deviprasad97)
-* [Siddharth Vadgama](https://github.com/Siddharth1410)
-* [Zachery Gentry](https://github.com/)
-* [Divy Acharya](https://github.com/)
+* [Devi Prasad Tripathy]
+* [Siddharth Vadgama]
+* [Zachery Gentry]
+* [Divy Acharya]
