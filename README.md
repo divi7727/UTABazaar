@@ -1,5 +1,5 @@
 # UTABAZZAR
-University Bazzar is a collaborative effort by #Team Members. The App is aimed to help and encourage Univversity Students and Staff to buy/sell different products from one another. The Lightweight app will be available on Android Platform.
+University Bazzar is a collaborative effort by # Team Members. The App is aimed to help and encourage University Students and Staff to buy/sell different products from one another. The Lightweight app will be available on Android Platform.
 
 ## Installation
 
